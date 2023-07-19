@@ -1,0 +1,7 @@
+Package: bcmwl-kernel-source
+Description-md5: 9da890d8409fb430fa6f9a0c8a37934a
+Description-bs: Izvor za Broadcom 802.11 Linux STA bežični drajver
+ Ovaj paket sadrži Broadcom 802.11 Linux STA bežični drajver za Broadcom
+ BCM4311-, BCM4312-, BCM4313-, BCM4321-, BCM4322-, BCM43224-, BCM43225-,
+ BCM43227- i BCM43228-bazirani hardver.
+

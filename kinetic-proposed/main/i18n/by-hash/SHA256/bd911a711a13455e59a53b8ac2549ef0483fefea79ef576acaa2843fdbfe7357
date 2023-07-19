@@ -1,0 +1,2197 @@
+Package: acpid
+Description-md5: 6a7c4e4695f570d8fbcaec667cdcfcfe
+Description-oc: Interfàcia avançada de configuracion e de gestion de l'energia (ACPI)
+ Modern computers support the Advanced Configuration and Power Interface
+ (ACPI) to allow intelligent power management on your system and to query
+ battery and configuration status.
+ .
+ ACPID is a completely flexible, totally extensible daemon for delivering
+ ACPI events. It listens on netlink interface (or on the deprecated file
+ /proc/acpi/event), and when an event occurs, executes programs to handle
+ the event. The programs it executes are configured through a set of
+ configuration files, which can be dropped into place by packages or by the
+ admin.
+
+Package: adduser
+Description-md5: 0e61515c925d932d3824e3dc6af2842b
+Description-oc: Apondre o suprimir d'utilizaires o gropes
+ This package includes the 'adduser' and 'deluser' commands for creating
+ and removing users.
+ .
+  - 'adduser' creates new users and groups and adds existing users to
+    existing groups;
+  - 'deluser' removes users and groups and removes users from a given
+    group.
+ .
+ Adding users with 'adduser' is much easier than adding them manually.
+ Adduser will choose appropriate UID and GID values, create a home
+ directory, copy skeletal user configuration, and automate setting initial
+ values for the user's password, real name and so on.
+ .
+ Deluser can back up and remove users' home directories and mail spool or
+ all the files they own on the system.
+ .
+ Un escript configurable pòt èsser executat aprèp caduna d'aquelas
+ comandas.
+
+Package: advancecomp
+Description-md5: 45269d7ed6ff6092f699fce2e0061b74
+Description-oc: Ensemble d'aisinas de recompression
+ AdvanceCOMP contains recompression utilities for your .zip archives, .png
+ images, .mng video clips and .gz files.
+ .
+ For recompression, 7-Zip (http://www.7-zip.com) is used, which generally
+ gives 5-10% more compression than zLib.
+
+Package: alsa-base
+Description-md5: 14d30d1beb8026b3d2636c32c5a92cca
+Description-oc: Fichièrs de configuracion pels pilòtes ALSA
+ This package contains various configuration files for the ALSA drivers.
+ .
+ For ALSA to work on a system with a given sound card, there must be an
+ ALSA driver for that card in the kernel. Linux 2.6 as shipped in linux-
+ image packages contains ALSA drivers for all supported sound cards in the
+ form of loadable modules. A custom alsa-modules package can be built from
+ the sources in the alsa-source package using the m-a utility (included in
+ the module-assistant package). Please read the README.Debian file for more
+ information about loading and building modules.
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
+Package: anope
+Description-md5: bb0a2350d2094f8bb9b48d9bfdddb1c0
+Description-oc: IRC Services designed for flexibility and ease of use
+ Anope offers various services to maintain your IRC network.
+ .
+ The following main services are included: NickServ, ChanServ, MemoServ,
+ OperServ, BotServ, and HostServ.
+ .
+ Los servidors IRC seguents son preses en carga :
+ .
+  * Bahamut 1.4.27 or later (including 1.8)
+  * Charybdis 3.4 or later
+  * ircd-hybrid 8.2.23 or later
+  * InspIRCd 1.2 or later
+  * ngIRCd 19.2 or later
+  * Plexus 3 or later
+  * Ratbox 2.0.6 or later
+  * UnrealIRCd 3.2 or later
+
+
+Package: aodh-api
+Description-md5: 6b8d05cc8a7eaa3240864a08b5d1cd55
+Description-oc: OpenStack Telemetry (Ceilometer) Alarming - API server
+ Ceilometer aims to deliver a Single Point Of Contact for billing systems,
+ providing all the counters they need to establish customer billing, across
+ all current and future OpenStack components. The delivery of counters must
+ be traceable and auditable, the counters must be easily extensible to
+ support new projects, and agents doing data collections should be
+ independent of the overall system.
+ .
+ (A ceilometer is an instrument that measures cloud coverage.)
+ .
+ Aqueste paquet conten lo servici d’API.
+
+Package: apache2
+Description-md5: d02426bc360345e5acd45367716dc35c
+Description-oc: Servidor Apache HTTP
+ The Apache HTTP Server Project's goal is to build a secure, efficient and
+ extensible HTTP server as standards-compliant open source software. The
+ result has long been the number one web server on the Internet.
+ .
+ Installing this package results in a full installation, including the
+ configuration files, init scripts and support scripts.
+
+Package: apache2-data
+Description-md5: 9f2fab36019a61312dec627d1cd80365
+Description-oc: Servidor Apache HTTP Server (fichièrs comuns)
+ The Apache HTTP Server Project's goal is to build a secure, efficient and
+ extensible HTTP server as standards-compliant open source software. The
+ result has long been the number one web server on the Internet.
+ .
+ This package contains architecture-independent common files such as icons,
+ error pages and static index files.
+
+Package: apg
+Description-md5: d919baea3108b57df48112b188dca442
+Description-oc: Generador de senhal automatizat - version autonòma
+ APG (Automated Password Generator) is the tool set for random password generation. It generates some random words of required type and prints them to standard output. This binary package contains only the standalone version of apg. Advantages:
+  * Built-in ANSI X9.17 RNG (Random Number Generator)(CAST/SHA1)
+  * Built-in password quality checking system (now it has support for Bloom
+    filter for faster access)
+  * Two Password Generation Algorithms:
+     1. Pronounceable Password Generation Algorithm (according to NIST
+        FIPS 181)
+     2. Random Character Password Generation Algorithm with 35
+        configurable modes of operation
+  * Configurable password length parameters
+  * Configurable amount of generated passwords
+  * Ability to initialize RNG with user string
+  * Support for /dev/random
+  * Ability to crypt() generated passwords and print them as additional output.
+  * Special parameters to use APG in script
+  * Ability to log password generation requests for network version
+  * Ability to control APG service access using tcpd
+  * Ability to use password generation service from any type of box (Mac,
+    WinXX, etc.) that connected to network
+  * Ability to enforce remote users to use only allowed type of password
+    generation
+  The client/server version of apg has been deliberately omitted.
+ .
+ Please note that there are security flaws in pronounceable password
+ generation schemes (see Ganesan / Davis "A New Attack on Random
+ Pronounceable Password Generators", in "Proceedings of the 17th National
+ Computer Security Conference (NCSC), Oct. 11-14, 1994 (Volume 1)",
+ http://csrc.nist.gov/publications/history/nissc/ 1994-17th-NCSC-
+ proceedings-vol-1.pdf, pages 203-216)
+ .
+ Also note that the FIPS 181 standard from 1993 has been withdrawn by NIST
+ in 2015 with no superseding publication. This means that the document is
+ considered by its publicher as obsolete and not been updated to reference
+ current or revised voluntary industry standards, federal specifications,
+ or federal data standards.
+ .
+ apg has not seen upstream attention since 2003, upstream is not answering
+ e-mail, and the upstream web page does not look like it is in good working
+ order. The Debian maintainer plans to discontinue apg maintenance as soon
+ as an actually maintained software with a compariable feature set becomes
+ available.
+
+Package: apport
+Description-md5: c04626471654f9246cf5e28b560d262e
+Description-oc: generacion automatica de rapòrts de plantatge pel desbugatge
+ apport automatically collects data from crashed processes and compiles a
+ problem report in /var/crash/. This utilizes the crashdump helper hook
+ provided by the Ubuntu kernel.
+ .
+ This package also provides a command line frontend for browsing and
+ handling the crash reports. For desktops, you should consider installing
+ the GTK+ or Qt user interface (apport-gtk or apport-kde).
+
+Package: appstream
+Description-md5: 7cf2fff1862d6e9404e1ca39507a24b4
+Description-oc: Gestion de las metadonadas de compausant de Software
+ AppStream is a metadata specification which permits software components to
+ provide information about themselves to automated systems and end-users
+ before the software is actually installed. The AppStream project provides
+ facilities to easily access and transform this metadata, as well as a few
+ additional services to allow building feature-rich software centers and
+ similar applications.
+ .
+ This package provides tools to generate, maintain and query the AppStream
+ data pool of installed and available software, and enables integration
+ with the APT package manager.
+ .
+ The 'appstreamcli' tool can be used for accessing the software component
+ pool as well as for working with AppStream metadata directly, including
+ validating it for compliance with the specification.
+
+Package: apt
+Description-md5: 9fb97a88cb7383934ef963352b53b4a7
+Description-oc: gestionari de paquets en linha de comanda
+ This package provides commandline tools for searching and managing as well
+ as querying information about packages as a low-level access to all
+ features of the libapt-pkg library.
+ .
+ These include:
+  * apt-get for retrieval of packages and information about them
+    from authenticated sources and for installation, upgrade and
+    removal of packages together with their dependencies
+  * apt-cache for querying available information about installed
+    as well as installable packages
+  * apt-cdrom to use removable media as a source for packages
+  * apt-config as an interface to the configuration settings
+  * apt-key as an interface to manage authentication keys
+
+
+Package: apt-doc
+Description-md5: bc2b838ed28e60af95d78926380a3300
+Description-oc: documentacion per APT
+ This package contains the user guide and offline guide for various APT
+ tools which are provided in a html and a text-only version.
+
+Package: apt-listchanges
+Description-md5: ff242d11e25a826706c61be7ebf92ad4
+Description-oc: Aisina de notificacion de cambiament d'istoric d'un paquet
+ The tool apt-listchanges can compare a new version of a package with the
+ one currently installed and show what has been changed, by extracting the
+ relevant entries from the Debian changelog and NEWS files.
+ .
+ It can be run on several .deb archives at a time to get a list of all
+ changes that would be caused by installing or upgrading a group of
+ packages. When configured as an APT plugin it will do this automatically
+ during upgrades.
+
+Package: aptdaemon
+Description-md5: 5ed476246aefb12d0c1b0deb4818778b
+Description-oc: servici de gestion dels paquets basat sus la transaccion
+ Aptdaemon allows normal users to perform package management tasks, e.g.
+ refreshing the cache, upgrading the system, installing or removing
+ software packages.
+ .
+ Currently it comes with the following main features:
+ .
+  - Programming language independent D-Bus interface, which allows one to
+    write clients in several languages
+  - Runs only if required (D-Bus activation)
+  - Fine grained privilege management using PolicyKit, e.g. allowing all
+    desktop user to query for updates without entering a password
+  - Support for media changes during installation from DVD/CDROM
+  - Support for debconf (Debian's package configuration system)
+  - Support for attaching a terminal to the underlying dpkg call
+ .
+ This package contains the aptd script and all the data files required to
+ run the daemon. Moreover it contains the aptdcon script, which is a
+ command line client for aptdaemon. The API is not stable yet.
+
+Package: aspell
+Description-md5: 21dcab5448cba7f61ba8df4ace46f1af
+Description-oc: Verificador d'ortografia Aspell de GNU
+ GNU Aspell is a spell-checker which can be used either as a standalone
+ application or embedded in other programs.  Its main feature is that it
+ does a much better job of suggesting possible spellings than just about
+ any other spell-checker available for the English language, including
+ Ispell and Microsoft Word.  It also has many other technical enhancements
+ over Ispell such as using shared memory for dictionaries and intelligently
+ handling personal dictionaries when more than one Aspell process is open
+ at once.
+ .
+ Aspell is designed to be a drop-in replacement for Ispell.
+
+Package: aspell-en
+Description-md5: c94b13744f65f4d57e191f183fc7c9c9
+Description-oc: Diccionari anglés per GNU Aspell
+ This package contains all the required files to add support for English
+ language to the GNU Aspell spell checker.
+ .
+ Las ortografias americanas, britanicas, canadianas e australianas son
+ inclusas.
+
+Package: avahi-daemon
+Description-md5: 13d651a25febc553220e03e75c6f4c7b
+Description-oc: Demòni Avahi per mDNS/DNS-SD
+ Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It
+ allows programs to publish and discover services and hosts running on a
+ local network with no specific configuration. For example you can plug
+ into a network and instantly find printers to print to, files to look at
+ and people to talk to.
+ .
+ This package contains the Avahi Daemon which represents your machine on
+ the network and allows other applications to publish and resolve mDNS/DNS-
+ SD records.
+
+Package: bind9-host
+Description-md5: 2dd2359e6a96f700ef352e6924685162
+Description-oc: Utilitari de recèrca DNS
+ This package provides the 'host' DNS lookup utility in the form that is
+ bundled with the BIND 9 sources.
+
+Package: bluez
+Description-md5: ef25d6a9f4a57e78f32faa7b58ef4e59
+Description-oc: Aisinas e demònis Bluetooth
+ This package contains tools and system daemons for using Bluetooth
+ devices.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: bluez-cups
+Description-md5: 4e5f0a66844f2292ecbf023e856b77d4
+Description-oc: Pilòt d’impression Bluetooth per CUPS
+ This package contains a driver to let CUPS print to Bluetooth-connected
+ printers.
+ .
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: comerr-dev
+Description-md5: 2188fc96978a9083bb050c70bc3cab2a
+Description-oc: Bibliotèca de descripcion de las errors comunas - entèstas e bibliotècas estaticas
+ libcom_err is an attempt to present a common error-handling mechanism to
+ manipulate the most common form of error code in a fashion that does not
+ have the problems identified with mechanisms commonly in use.
+ .
+ This package contains the development environment for the com_err library.
+
+Package: dictionaries-common
+Description-md5: 4a80be79c4a87f4adf4d30aa3462b5a7
+Description-oc: diccionaris ortografics - fichièrs d'utilitaris
+ This package provides utilities shared between all wordlists and spelling
+ dictionaries for Ispell, Aspell, or MySpell/Hunspell. It also includes
+ support infrastructure for software using them (such as JED and Mutt), and
+ some patched spell-checking Lisp files for better Emacs integration.
+ .
+ More information about the availability of these dictionaries and their
+ naming conventions is available in the README.Debian file.
+
+Package: dictionaries-common-dev
+Description-md5: 7ea9165cf4d8401b3076a1b02a062ecf
+Description-oc: diccionaris ortografics - fichièrs de desvolopament
+ This package provides the full text of the Debian Spelling Dictionaries
+ and Tools Policy, and some debhelper-like helpers.
+ .
+ It is only of interest for developers maintaining wordlists or
+ dictionaries for Ispell, Aspell, or MySpell/Hunspell.
+
+Package: distro-info
+Description-md5: 5671943e370fd3dd7449d885e6363cee
+Description-oc: fornís d'entresenhas a prepaus de las versions de las distribucions
+ Information about all releases of Debian and Ubuntu. The distro-info
+ script will give you the codename for e.g. the latest stable release of
+ your distribution. To get information about a specific distribution there
+ are the debian-distro-info and the ubuntu-distro-info scripts.
+
+Package: dnsmasq-base
+Description-md5: 1f9c3f0c557ca377bcc6c659e4694437
+Description-oc: Servidor mandatari DNS petit amb cache e servidor DHCP/TFTP
+ This package contains the dnsmasq executable and documentation, but not
+ the infrastructure required to run it as a system daemon. For that,
+ install the dnsmasq package.
+
+Package: e2fsprogs
+Description-md5: 92d0fdf684262bbfa702eaea3f50b97e
+Description-oc: Utilitaris sistèma de fichièrs ext2/ext3/ext4
+ The ext2, ext3 and ext4 file systems are successors of the original ext
+ ("extended") file system. They are the main file system types used for
+ hard disks on Debian and other Linux systems.
+ .
+ This package contains programs for creating, checking, and maintaining
+ ext2/3/4-based file systems.  It also includes the "badblocks" program,
+ which can be used to scan for bad blocks on a disk or other storage
+ device.
+
+Package: eog
+Description-md5: a17b1b698fda7b280b8e85d7b08c5d27
+Description-oc: visualizaira d'imatges de GNOME
+ eog or the Eye of GNOME is a simple graphics viewer for the GNOME desktop
+ which uses the gdk-pixbuf library.  It can deal with large images, and
+ zoom and scroll with constant memory usage.  Its goals are simplicity and
+ standards compliance.
+
+Package: evince
+Description-md5: 531974388dc5701b9dbc2f5d96f92ec6
+Description-oc: visualizaira de documents (PostScript, PDF)
+ Evince is a simple multi-page document viewer.  It can display and print
+ PostScript (PS), Encapsulated PostScript (EPS), DjVu, DVI, Portable
+ Document Format (PDF) and XML Paper Specification (XPS) files. When
+ supported by the document, it also allows searching for text, copying text
+ to the clipboard, hypertext navigation, and table-of-contents bookmarks.
+
+Package: file-roller
+Description-md5: 38d3e4bf80de5287311da5585810d3db
+Description-oc: gestionari d’archius per GNOME
+ File-roller is an archive manager for the GNOME environment. It allows you
+ to:
+ .
+  * Create and modify archives.
+  * View the content of an archive.
+  * View a file contained in an archive.
+  * Extract files from the archive.
+ .
+ File-roller supports the following formats:
+  * Tar (.tar) archives, including those compressed with
+    gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+    compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+    lzma (.tar.lzma) and xz (.tar.xz)
+  * Zip archives (.zip)
+  * Jar archives (.jar, .ear, .war)
+  * 7z archives (.7z)
+  * iso9660 CD images (.iso)
+  * Lha archives (.lzh)
+  * Archiver archives (.ar)
+  * Comic book archives (.cbz)
+  * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+    compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+ .
+ File-roller can extract following formats:
+  * Cabinet archives (.cab)
+  * Debian binary packages (.deb)
+  * Xar archives (.xar)
+ .
+ File-roller doesn't perform archive operations by itself, but relies on
+ standard tools for this.
+
+Package: fonts-noto-color-emoji
+Description-md5: a9719702f7fba976902bc66487dd558b
+Description-oc: poliça d’emoji colors de Google
+ Noto is a collection of font families, each visually harmonized across
+ scripts.
+ .
+ The name "Noto" is short for "No Tofu", describing the aim of covering all
+ living Unicode scripts.
+ .
+ Tofu (豆腐) is Japanese jargon for unicode replacement character "�"
+ (U+FFFD) often displayed as replacement for unassigned or unknown
+ characters.
+ .
+ This package contains the color emoji font used on "stock" Android devices
+ such as the Google Pixel.
+
+Package: gdm3
+Description-md5: 9be0fb38ba2581f623b79242c9c7918d
+Description-oc: Gestionari d'afichatge GNOME
+ GDM provides the equivalent of a "login:" prompt for X displays: it asks
+ for a login and starts graphical sessions.
+ .
+ It supports multiple seats and switching between multiple users.
+ .
+ The greeter is based on the GNOME libraries and applications, and its look
+ and design are the same as those of a GNOME session.
+
+Package: gir1.2-dbusmenu-glib-0.4
+Description-md5: 178deafecf0710d3aefd7dd5299fab54
+Description-oc: fichièr typelib per libdbusmenu-glib4
+ libdbusmenu passes a menu structure across DBus so that a program can
+ create a menu simply without worrying about how it is displayed on the
+ other side of the bus.
+ .
+ This package can be used by other packages using the GIRepository format
+ to generate dynamic bindings for libdbusmenu-glib4.
+
+Package: gnome-power-manager
+Description-md5: 1ece6a08127f01c856017ac9675775b5
+Description-oc: aisina de gestion energetica pel burèu GNOME
+ GNOME Power Manager is a session daemon for the GNOME desktop that takes
+ care of system or desktop events related to power, and triggers actions
+ accordingly. Its philosophy is to completely hide these complex tasks and
+ only show some settings important to the user.
+ .
+ GNOME power manager displays and manages battery status, power plug
+ events, display brightness, CPU, graphics card and hard disk drive power
+ saving, and can trigger suspend-to-RAM, hibernate or shutdown events, all
+ integrated to other components of the GNOME desktop.
+
+Package: gnome-shell
+Description-md5: 51a5a94e6b632e350489b7b8d27ab9fc
+Description-oc: terminal grafic pel burèu GNOME
+ The GNOME Shell provides core interface functions like switching windows,
+ launching applications or see your notifications. It takes advantage of
+ the capabilities of modern graphics hardware and introduces innovative
+ user interface concepts to provide a delightful and easy to use
+ experience. GNOME Shell is the defining technology of the GNOME 3 user
+ experience.
+
+Package: gnome-shell-common
+Description-md5: 2b326fbe771cf911adfb09b06fd267b5
+Description-oc: fichièrs comuns pel terminal grafic de GNOME
+ This package contains translations and data files for the GNOME shell.
+
+Package: gnome-shell-extension-desktop-icons-ng
+Description-md5: de2d1265844a1946ab72c3b5b2921613
+Description-oc: compatibilitat de las icònas de burèu per GNOME Shell
+ This package provides a GNOME Shell extension for showing the contents of
+ ~/Desktop on the desktop of the Shell. Common file management operations
+ such as launching, copy/paste, rename and deleting are supported.
+
+Package: gnome-shell-extension-ubuntu-dock
+Description-md5: c2bac0faf9bdb321435b126f80850890
+Description-oc: Dock d’Ubuntu per GNOME Shell
+ A dock for the Gnome Shell, default Ubuntu experience.
+ .
+ This extension is a modified version of Dash To Dock with different
+ defaults. Dash To Dock can be installed to replace it and give more (but
+ unsupported) configuration options.
+
+Package: gnome-startup-applications
+Description-md5: ff3caf70a13ee02dbc38b23cdf2e1477
+Description-oc: Gestionari d’aplicacions a l’aviada per GNOME
+ The Startup Applications Preferences app allows configuring applications
+ to run automatically when logging in to your desktop. This app complies
+ with the FreeDesktop.org Desktop Application Autostart Specification so it
+ will work even if your chosen desktop is not GNOME.
+
+Package: gnome-user-docs-fr
+Description-md5: 6577b9dfc6a9f0cf032f9dcbe8ac0449
+Description-oc: GNOME Help (French)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ Aqueste paquet conten las documentacion en francés.
+
+Package: gtk-update-icon-cache
+Description-md5: 7085c6bbe9a81adcc1cf27c74f6df2b2
+Description-oc: utilitari de mesa en cache dels tèmas d'icònas
+ gtk-update-icon-cache creates mmap()able cache files for icon themes.
+ .
+ GTK can use the cache files created by gtk-update-icon-cache to avoid a
+ lot of system call and disk seek overhead when the application starts.
+ Since the format of the cache files allows them to be mmap()ed shared
+ between multiple applications, the overall memory consumption is reduced
+ as well.
+
+Package: hunspell-an
+Description-md5: 5731042b6f0dd843ed122726669f7d10
+Description-oc: diccionari aragonés per hunspell
+ This is the Aragonese dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-bg
+Description-md5: 1d0c7231d8b3d16a293ee3cc8d5914ee
+Description-oc: diccionari bulgar per hunspell
+ This is the Bulgarian dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-br
+Description-md5: e3293c4c9da8adeaff107fcbc4829e30
+Description-oc: diccionari breton per hunspell
+ This dictionary contains Breton language wordlist for the hunspell
+ spellchecker (currently supported by Mozilla and LibreOffice). It is based
+ on the original Breton wordlist created by Philippe Basciano-Le Gall for
+ Korvigelloù an Drouizig (http://www.drouizig.org). An Drouizig Difazier
+ uses the same wordlist.
+
+Package: hunspell-ca
+Description-md5: cec54473543c362ec316fb0d775d5a91
+Description-oc: diccionari catalan per hunspell
+ This is the Catalan dictionary for use with the hunspell spellchecker
+ which is currently used within LibreOffice and the Mozilla spellchecker.
+ .
+ This package contains both Catalonia and Valencia variants.
+
+Package: hunspell-da
+Description-md5: 01c3081cc2ba4aedc7306e30e648f80a
+Description-oc: diccionari danés per hunspell
+ This is the Danish dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-es
+Description-md5: 5506ac634b0022c24b8eec719172878e
+Description-oc: diccionari espanhòl per hunspell
+ This is the Spanish dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-eu
+Description-md5: 605aa62d43f45421d8ec5a4a2bcf7cde
+Description-oc: diccionari basc per hunspell
+ This is the Basque (Euskera) dictionary for use with the hunspell
+ spellchecker.
+
+Package: hunspell-is
+Description-md5: 755df5a4f7852333d991a0c0b39baf91
+Description-oc: diccionari islandés per hunspell
+ This is the Icelandic dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-it
+Description-md5: ebe05c94ca9bf7f47266e6eaced536d9
+Description-oc: diccionari italian per hunspell
+ This is the Italian dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-ko
+Description-md5: 01c94e8fc992a0cac0d9d33290ea2643
+Description-oc: diccionari corean per hunspell
+ This is the Korean dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-nl
+Description-md5: ff5922cc8f2ecc9b677f449ca989eca4
+Description-oc: diccionari neerlandés per hunspell
+ This is the Dutch dictionary for use with the Hunspell spelling checker
+ which is used by LibreOffice, Firefox, Thunderbird and many other text
+ processing software.
+ .
+ This dictionary, from the OpenTaal project, uses the official spelling of
+ 2005 and has been officially approved by the TaalUnie.
+
+Package: hunspell-oc
+Description-md5: 7b7f4390422a58a72e7851f5224cdae9
+Description-oc: Diccionari occitan per hunspell
+ Aquò es lo diccionari occitan d’utilizar amb lo verificador ortografic
+ Hunspell.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-pt-pt
+Description-md5: fdc5675b3e9f519ab00eaf077eb354e9
+Description-oc: diccionari portugués per hunspell
+ This is the Portuguese dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-ro
+Description-md5: 24629673061e267b9e87d498bae23555
+Description-oc: diccionari romanés per hunspell
+ This is the Romanian dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-ru
+Description-md5: c9190617b96e7be23cdcb522a0e81a2d
+Description-oc: diccionari rus per hunspell
+ This is the Russian dictionary for use with the hunspell spellchecker.
+ .
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and a
+ LibreOffice UNO module.
+
+Package: hunspell-tools
+Description-md5: 9dd84fe88ca2c7135c9aca89f4a7949a
+Description-oc: aisinas per hunspell
+ Hunspell is a spell checker and morphological analyzer library and program
+ designed for languages with rich morphology and complex word compounding
+ or character encoding. It is based on MySpell and features an Ispell-like
+ terminal interface using Curses library, an Ispell pipe interface and an
+ OpenOffice.org UNO module.
+ .
+ Main features:
+  - Unicode support (first 65535 Unicode characters)
+  - morphological analysis (in custom item and arrangement style)
+  - Max. 65535 affix classes and twofold affix stripping (for agglutinative
+    languages, like Azeri, Basque, Estonian, Finnish, Hungarian, Turkish, etc.)
+  - Support complex compoundings (for example, Hungarian and German)
+  - Support language specific algorithms (for example, handling Azeri
+    and Turkish dotted i, or German sharp s)
+  - Handling conditional affixes, circumfixes, fogemorphemes,
+    forbidden words, pseudoroots and homonyms.
+ .
+ This package contains a the munch/unmunch tools of hunspell and
+ ispellaff2myspell for converting ispell affix files for myspell/hunspell
+ format.
+
+Package: ibus-table-cangjie
+Description-md5: acb60694cc35cb702c2977198bf13ef4
+Description-oc: ibus-table input method: CangJie (dummy package)
+ Aquò es un paquet factici per una mesa a nivèl segura.
+ .
+ You can safely remove it from your system.
+
+Package: iso-codes
+Description-md5: 1d3d450e990f35eff4fb8f641e0f6976
+Description-oc: ISO de lenga, territòri, devisa, còdis scripts e lors traduccions.
+ This package provides the ISO 639, ISO 639-3, and ISO 639-5 language code
+ lists, the ISO 4217 currency code list, the ISO 3166 territory code list,
+ the ISO 3166-2 sub-territory list, and the ISO 15924 script code list as
+ JSON files.
+ .
+ More importantly, it also provides their translations to be used by other
+ programs.
+
+Package: language-pack-ar
+Description-md5: b7461fa593f1c6fcd1db9db0c40d9039
+Description-oc: translation updates for language Arabic
+ Translation data updates for all supported packages for: Arabic
+ .
+ language-pack-ar-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-ar-base
+Description-md5: 774e1cdd50e244f821c0560eba60e5d8
+Description-oc: translations for language Arabic
+ Translation data for all supported packages for: Arabic
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-ar provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-ast
+Description-md5: 786fb5ebccafbf7ec8c011f2a4076942
+Description-oc: translation updates for language Asturian
+ Translation data updates for all supported packages for: Asturian
+ .
+ language-pack-ast-base provesís la màger part de las donadas de
+ traduccions e es rarament actualizat. Aqueste paquet fornís de mesas a
+ jorn frequentas de las traduccions.
+
+Package: language-pack-ast-base
+Description-md5: e812a27ce8778aa9ee7c4e14ad29e632
+Description-oc: translations for language Asturian
+ Translation data for all supported packages for: Asturian
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-ast provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-br
+Description-md5: 9e1867192aa855c7e89f8b4d52aa2d33
+Description-oc: translation updates for language Breton
+ Translation data updates for all supported packages for: Breton
+ .
+ language-pack-br-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-br-base
+Description-md5: 98574dcbc6266fe3445df8a302417f44
+Description-oc: translations for language Breton
+ Translation data for all supported packages for: Breton
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-br provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-ca
+Description-md5: 9180e20f11f818db00710984b1673248
+Description-oc: translation updates for language Catalan; Valencian
+ Translation data updates for all supported packages for: Catalan;
+ Valencian
+ .
+ language-pack-ca-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-ca-base
+Description-md5: e922c99335fe678d232e144046cf228b
+Description-oc: translations for language Catalan; Valencian
+ Translation data for all supported packages for: Catalan; Valencian
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-ca provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-eo
+Description-md5: 4d612644e4af68b4fad26a544958714b
+Description-oc: translation updates for language Esperanto
+ Translation data updates for all supported packages for: Esperanto
+ .
+ language-pack-eo-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-eo-base
+Description-md5: 7131d1d335bbae33aa87fd61ebb8728e
+Description-oc: translations for language Esperanto
+ Translation data for all supported packages for: Esperanto
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-eo provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-es
+Description-md5: 7a373fb17da933b78cbebcb492badd03
+Description-oc: translation updates for language Spanish; Castilian
+ Translation data updates for all supported packages for: Spanish;
+ Castilian
+ .
+ language-pack-es-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-es-base
+Description-md5: 1d6b26e2e1f0d7a530581fe3843d3540
+Description-oc: translations for language Spanish; Castilian
+ Translation data for all supported packages for: Spanish; Castilian
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-es provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-eu
+Description-md5: 3df38419401806ba95f38ddb438ac3c4
+Description-oc: translation updates for language Basque
+ Translation data updates for all supported packages for: Basque
+ .
+ language-pack-eu-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-eu-base
+Description-md5: f66eef54282ee6ff8369aaacfffec24c
+Description-oc: translations for language Basque
+ Translation data for all supported packages for: Basque
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-eu provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-fr
+Description-md5: 309dd7e54102d66deb2a59a73577d65d
+Description-oc: actualizacions de traduccions en francés
+ Translation data updates for all supported packages for: French
+ .
+ language-pack-fr-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-fr-base
+Description-md5: 9b0508a6b9e7b451bcdb734707b962a9
+Description-oc: traduccions en francés
+ Translation data for all supported packages for: French
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-fr provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-gl
+Description-md5: 401e02a1f6e5b0070cbf6816eb820b99
+Description-oc: translation updates for language Galician
+ Translation data updates for all supported packages for: Galician
+ .
+ language-pack-gl-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-gl-base
+Description-md5: fdc37bc5f999ce7b299370b71557d91b
+Description-oc: translations for language Galician
+ Translation data for all supported packages for: Galician
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-gl provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-gnome-oc
+Description-md5: 65e904820c2b79a3da46ce64ff7e7630
+Description-oc: Actualizacion de las traduccions de GNOME en occitan
+ Donadas de mesa a jorn de las traduccions pels paquets GNOME compatibles :
+ occitan
+ .
+ language-pack-gnome-oc-base provides the bulk of translation data and is
+ updated only seldom. This package provides frequent translation updates.
+
+Package: language-pack-gnome-oc-base
+Description-md5: b0492abe7708e31c513778962f2a3bcd
+Description-oc: Traduccions de GNOME en lenga occitana
+ Donadas de traduccion pels paquets GNOME compatibles : occitan
+ .
+ This package provides the bulk of translation data and is updated only
+ seldom. language-pack-gnome-oc provides frequent translation updates, so
+ you should install this as well.
+
+Package: language-pack-hr
+Description-md5: 34c162e587e1cdea815ca5ed6f077313
+Description-oc: translation updates for language Croatian
+ Translation data updates for all supported packages for: Croatian
+ .
+ language-pack-hr-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-hr-base
+Description-md5: a447d80c901274a32ff85590aab5e8ba
+Description-oc: translations for language Croatian
+ Translation data for all supported packages for: Croatian
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-hr provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-it
+Description-md5: e120dba4eaa0911d53e8c96b72adf578
+Description-oc: translation updates for language Italian
+ Translation data updates for all supported packages for: Italian
+ .
+ language-pack-it-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-it-base
+Description-md5: 99813ee4cadd38f6c7b74f675b34a449
+Description-oc: translations for language Italian
+ Translation data for all supported packages for: Italian
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-it provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-oc
+Description-md5: 23f29ee8608accc2bd14789fb7fae9c1
+Description-oc: Actualizacions de las traduccions en occitan
+ Donadas de traduccion pels paquets compatibles : occitan
+ .
+ language-pack-oc-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-oc-base
+Description-md5: 6075ccc10f113b28cdd42fdd2cbf2eab
+Description-oc: traduccions en lenga occitana
+ Dondas de traduccions per totes los paquets compatibles : occitan
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-oc provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-pt
+Description-md5: bdb80b4ddacaf5fa67fbad83cb7c6f9c
+Description-oc: translation updates for language Portuguese
+ Translation data updates for all supported packages for: Portuguese
+ .
+ language-pack-pt-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-pt-base
+Description-md5: 43d77c941af707d0ba018624927e0fad
+Description-oc: translations for language Portuguese
+ Translation data for all supported packages for: Portuguese
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-pt provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-ro
+Description-md5: b132e36e231a6dc739d152b9eec4e292
+Description-oc: translation updates for language Romanian; Moldavian; Moldovan
+ Translation data updates for all supported packages for: Romanian;
+ Moldavian; Moldovan
+ .
+ language-pack-ro-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-ro-base
+Description-md5: e0d906cdf02942226dae048d6c6566ae
+Description-oc: translations for language Romanian; Moldavian; Moldovan
+ Translation data for all supported packages for: Romanian; Moldavian;
+ Moldovan
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-ro provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-pack-sq
+Description-md5: 65c046608d75d827e60d17bd98616840
+Description-oc: translation updates for language Albanian
+ Translation data updates for all supported packages for: Albanian
+ .
+ language-pack-sq-base provesís la màger part de las donadas de traduccions
+ e es rarament actualizat. Aqueste paquet fornís de mesas a jorn frequentas
+ de las traduccions.
+
+Package: language-pack-sq-base
+Description-md5: de1f3ebacd8d0aae60790904e97d7dc9
+Description-oc: translations for language Albanian
+ Translation data for all supported packages for: Albanian
+ .
+ Aqueste paquet provesís la màger part de las donadas de traduccions e es
+ rarament actualizat. language-pack-sq provesís de mesas a jorn frequentas
+ de las traduccions, alara deuriatz l’installar tanben.
+
+Package: language-selector-common
+Description-md5: 2289b4df765931b87d6dfc592bc87ebc
+Description-oc: Selector de lenga per Ubuntu
+ Aqueste paquet vos permet de cambiar e installar de paquets de lengas per
+ Ubuntu.
+ .
+ This package contains the common part of language-selector
+
+Package: language-selector-gnome
+Description-md5: 6abcc88361f78fc5d3dae617c067891a
+Description-oc: Language selector frontend for Ubuntu
+ Aqueste paquet vos permet de cambiar e installar de paquets de lengas per
+ Ubuntu.
+ .
+ This package contains the GTK+ frontend.
+
+Package: libbluetooth3
+Description-md5: 99ecfc643816cbb50cd9ae690a10287d
+Description-oc: Bibliotèca per utilizar la brica BlueZ Linux Bluetooth
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+
+Package: libbrlapi0.8
+Description-md5: d7471913aa262901576c796cae4d0b04
+Description-oc: accès a l’afichatge braille - bibliotèca partejada
+ BRLTTY is a daemon which provides access to the console (text mode) for a
+ blind person using a braille display.  It drives the braille display and
+ provides complete screen review functionality.
+ .
+ BrlAPI is a library which gives an application access to a braille display
+ and lets it write braille.
+ .
+ This package contains the shared library necessary to run programs which
+ need to communicate with a braille display.
+
+Package: libcom-err2
+Description-md5: 5611f795c9947cfb9a2980a01506a1b9
+Description-oc: Bibliotèca de descripcion de las errors comunas
+ libcomerr is an attempt to present a common error-handling mechanism to
+ manipulate the most common form of error code in a fashion that does not
+ have the problems identified with mechanisms commonly in use.
+
+Package: libdjvulibre-text
+Description-md5: d5fca3d4995b08f997ca3b715715e14b
+Description-oc: Fichièrs de gestion lingüistica per libdjvulibre
+ Fichièrs supòrt de gestion lingüistica per la bibliotèca libdjvulibre.
+
+Package: libdjvulibre21
+Description-md5: 377e0a8fb1d56ba31c3feadafc4781b8
+Description-oc: Runtime support for the DjVu image format
+ Bibliotèca d’execucion DjVu.
+
+Package: libexiv2-27
+Description-md5: 0cef82cd4c7bd76f6d4f353b700168e9
+Description-oc: bibliotèca de manipulacion de metadonadas EXIF/IPTC/XMP
+ Exiv2 is a C++ library and a command line utility to manage image
+ metadata. It provides fast and easy read and write access to the Exif,
+ IPTC and XMP metadata of images in various formats
+ .
+ Exiv2 library provides:
+  * fast read and write access to the Exif, IPTC, and XMP metadata of an image
+  * an easy to use and extensively documented API
+  * conversions of Exif and IPTC metadata to XMP and vice versa
+  * a smart IPTC implementation that does not affect data that programs like
+    Photoshop store in the same image segment
+  * Exif Makernote support:
+    - Makernote tags can be read and written just like any other metadata
+    - a sophisticated write algorithm avoids corrupting the Makernote
+  * a simple interface to extract previews embedded in RAW images and Exif
+    thumbnails
+  * set and delete methods for Exif thumbnails
+
+
+Package: libexiv2-dev
+Description-md5: 1e6c4afdae92d4adb3af25ca7157ab94
+Description-oc: bibliotèca de manipulacion de metadonadas EXIF/IPTC/XMP - fichièrs de desvolopament
+ Exiv2 is a C++ library and a command line utility to manage image
+ metadata. It provides fast and easy read and write access to the Exif,
+ IPTC and XMP metadata of images in various formats
+ .
+ This package provides the development files for using exiv2.
+
+Package: libexiv2-doc
+Description-md5: ceddcd5f9a8d366703af7c7d1539c4a6
+Description-oc: bibliotèca de manipulacion de metadonadas EXIF/IPTC/XMP - documentacion HTML
+ Exiv2 is a C++ library and a command line utility to manage image
+ metadata. It provides fast and easy read and write access to the Exif,
+ IPTC and XMP metadata of images in various formats
+ .
+ This package provides the Exiv2 HTML documentation.
+
+Package: libext2fs-dev
+Description-md5: 6c413fbf2fbe007c87112b744560fc94
+Description-oc: Bibliotèca sistèma de fichièrs ext2/ext3/ext4 - bibliotècas estaticas e entèstas
+ The ext2, ext3 and ext4 file systems are successors of the original ext
+ ("extended") file system. They are the main file system types used for
+ hard disks on Debian and other Linux systems.
+ .
+ This package contains the development environment for the ext2fs and e2p
+ libraries.
+
+Package: libext2fs2
+Description-md5: ba4f61a3e0b238831f03143cbdce696e
+Description-oc: Bibliotèca sistèma de fichièrs ext2/ext3/ext4
+ The ext2, ext3 and ext4 file systems are successors of the original ext
+ ("extended") file system. They are the main file system types used for
+ hard disks on Debian and other Linux systems.
+ .
+ This package provides the ext2fs and e2p libraries, for userspace software
+ that directly accesses extended file systems. Programs that use libext2fs
+ include e2fsck, mke2fs, and tune2fs. Programs that use libe2p include
+ dumpe2fs, chattr, and lsattr.
+
+Package: libgdm-dev
+Description-md5: 669514f6396aac0aea32903df3bc22ad
+Description-oc: Gestionari d'afichatge GNOME (fichièrs de desvolopament)
+ GDM provides the equivalent of a "login:" prompt for X displays: it asks
+ for a login and starts graphical sessions.
+ .
+ It supports multiple seats and switching between multiple users.
+ .
+ The greeter is based on the GNOME libraries and applications, and its look
+ and design are the same as those of a GNOME session.
+ .
+ This package contains header and development files.
+
+Package: libgdm1
+Description-md5: fbcf9de06b83ab57fb37bde788d9034b
+Description-oc: Gestionari d'afichatge GNOME (bibliotèca partejada)
+ GDM provides the equivalent of a "login:" prompt for X displays: it asks
+ for a login and starts graphical sessions.
+ .
+ It supports multiple seats and switching between multiple users.
+ .
+ The greeter is based on the GNOME libraries and applications, and its look
+ and design are the same as those of a GNOME session.
+ .
+ This package contains the shared library required by gnome-shell.
+
+Package: libglib2.0-0
+Description-md5: f44de6293be1aa02cd13d73f591580a9
+Description-oc: bibliotèca GLib per las rotinas C
+ GLib is a library containing many useful C routines for things such as
+ trees, hashes, lists, and strings.  It is a useful general-purpose C
+ library used by projects such as GTK+, GIMP, and GNOME.
+ .
+ This package contains the shared libraries.
+
+Package: libglib2.0-bin
+Description-md5: b999624c61f8058d0201077f097c87ed
+Description-oc: Programas per la bibliotèca GLib
+ GLib is a library containing many useful C routines for things such as
+ trees, hashes, lists, and strings.  It is a useful general-purpose C
+ library used by projects such as GTK+, GIMP, and GNOME.
+ .
+ This package contains the program files which is used for the libraries
+ and others.
+
+Package: libglib2.0-data
+Description-md5: e30141317e2f372da30c78d06ac076ee
+Description-oc: Fichièrs comuns per la bibliotèca GLib
+ GLib is a library containing many useful C routines for things such as
+ trees, hashes, lists, and strings.  It is a useful general-purpose C
+ library used by projects such as GTK+, GIMP, and GNOME.
+ .
+ This package is needed for the runtime libraries to display messages in
+ languages other than English.
+
+Package: libglib2.0-dev
+Description-md5: f3b30cd579da1a2abb60728e46bbfb91
+Description-oc: Fichièrs de desvolopament per la bibliotèca GLib
+ GLib is a library containing many useful C routines for things such as
+ trees, hashes, lists, and strings.  It is a useful general-purpose C
+ library used by projects such as GTK+, GIMP, and GNOME.
+ .
+ This package is needed to compile programs against libglib2.0-0, as only
+ it includes the header files and static libraries (optionally) needed for
+ compiling.
+ .
+ GObject-Introspection metadata for this library can be found in the
+ libgirepository1.0-dev package.
+
+Package: libglib2.0-doc
+Description-md5: bdb9aa53f83dabd5dab7d58c0e8cd803
+Description-oc: Fichièrs de documentacion per la bibliotèca GLib
+ GLib is a library containing many useful C routines for things such as
+ trees, hashes, lists, and strings.  It is a useful general-purpose C
+ library used by projects such as GTK+, GIMP, and GNOME.
+ .
+ This package contains the HTML documentation for the GLib library in
+ /usr/share/doc/libglib2.0-doc/ .
+
+Package: libgnome-autoar-0-0
+Description-md5: 42b990f9a5ae2268b1488c8ddc620f1f
+Description-oc: Integracion d’archius per GNOME
+ GNOME Autoar is a library which makes creating and extracting archives
+ easy, safe, and automatic.
+
+Package: libgnome-autoar-0-dev
+Description-md5: c05a8b8038197cfc927c8446f9d44094
+Description-oc: Integracion d’archius per GNOME - fichièrs de desvolopament
+ GNOME Autoar is a library which makes creating and extracting archives
+ easy, safe, and automatic.
+ .
+ This package contains the development files.
+
+Package: libgnome-autoar-doc
+Description-md5: f3223ab594560c8763d3f27dc081b8d3
+Description-oc: Integracion d’archius per GNOME - documentacion
+ This package contains documentation for the GNOME Autoar library.
+
+Package: libgspell-1-2
+Description-md5: 31afc7eb3a35838ef3658ca444d4d5a0
+Description-oc: bibliotèca de verificacion ortografica per las aplicacions GTK+
+ gspell provides a flexible API to add spell checking to a GTK+ application. It features:
+  * GObject wrappers around Enchant
+  * An inline spell checker for GtkTextView (enhanced version of GtkSpell)
+  * A spell checker dialog for GtkTextView
+  * Support of the no-spell-check tag defined by GtkSourceView
+  * Language choosers (button and dialog)
+
+
+Package: libgtk-3-0
+Description-md5: 02e4be37fe9843eb98242e33800e4fb6
+Description-oc: Bibliotèca d'interfàcia grafica d’utilizaire
+ GTK is a multi-platform toolkit for creating graphical user interfaces.
+ Offering a complete set of widgets, GTK is suitable for projects ranging
+ from small one-off tools to complete application suites.
+ .
+ This package contains the shared libraries.
+
+Package: libgtk-3-doc
+Description-md5: 28495bcace073ee089194a1ff2abae27
+Description-oc: documentacion per la bibliotèca d'interfàcia grafica d’utilizaire
+ GTK is a multi-platform toolkit for creating graphical user interfaces.
+ Offering a complete set of widgets, GTK is suitable for projects ranging
+ from small one-off tools to complete application suites.
+ .
+ This package contains the HTML documentation for the GTK library in
+ /usr/share/doc/libgtk-3-doc/ .
+
+Package: libgtk-4-1
+Description-md5: 02e4be37fe9843eb98242e33800e4fb6
+Description-oc: Bibliotèca d'interfàcia grafica d’utilizaire
+ GTK is a multi-platform toolkit for creating graphical user interfaces.
+ Offering a complete set of widgets, GTK is suitable for projects ranging
+ from small one-off tools to complete application suites.
+ .
+ This package contains the shared libraries.
+
+Package: libgtk-4-doc
+Description-md5: 6c68a0540fbc36784326ef684049298c
+Description-oc: documentacion per la bibliotèca d'interfàcia grafica d’utilizaire
+ GTK is a multi-platform toolkit for creating graphical user interfaces.
+ Offering a complete set of widgets, GTK is suitable for projects ranging
+ from small one-off tools to complete application suites.
+ .
+ This package contains the HTML documentation for the GTK library in
+ /usr/share/doc/libgtk-4-doc/ .
+
+Package: libgtk2.0-0
+Description-md5: f3264372ea888336f19aee954ea0a0fc
+Description-oc: Bibliotèca d'interfàcia grafica d’utilizaire - anciana version
+ GTK is a multi-platform toolkit for creating graphical user interfaces.
+ Offering a complete set of widgets, GTK is suitable for projects ranging
+ from small one-off tools to complete application suites.
+ .
+ This package contains the shared libraries.
+
+Package: libgtk2.0-doc
+Description-md5: cd38dd0ae2b67a06d524e55f66d76aa4
+Description-oc: documentacion per la bibliotèca d'interfàcia grafica d’utilizaire
+ GTK is a multi-platform toolkit for creating graphical user interfaces.
+ Offering a complete set of widgets, GTK is suitable for projects ranging
+ from small one-off tools to complete application suites.
+ .
+ This package contains the HTML documentation for the GTK library in
+ /usr/share/doc/libgtk2.0-doc/ .
+
+Package: libgweather-4-0
+Description-md5: cb984482338858ae6dd68ad8bf4a2452
+Description-oc: bibliotèca partejada de GWeather
+ libgweather is a library to access weather information from online
+ services for numerous locations.
+ .
+ This package contains shared libraries.
+
+Package: libgweather-4-common
+Description-md5: a5b4a811991e8c5840d2aedf792b5dcd
+Description-oc: fichièrs comuns de GWeather
+ libgweather is a library to access weather information from online
+ services for numerous locations.
+ .
+ This package contains the weather locations.
+
+Package: libhttp-date-perl
+Description-md5: 9785d548badb18b00824a00956a6e270
+Description-oc: modul per las rotinas de conversion de datas
+ HTTP::Date provides functions that deal the date formats used by the HTTP
+ protocol (and then some more). Only the first two functions, time2str()
+ and str2time(), are exported by default.
+
+Package: libjson-glib-1.0-0
+Description-md5: 53a96fd80b7925face0f32f0fe0f240f
+Description-oc: Bibliotèca de manipulacion JSON GLib
+ JSON-GLib is a library for parsing, generating and manipulating JavaScript
+ Object Notation (JSON) data streams using the GLib type system. It allows
+ manipulating JSON data types with a Document Object Model API. It also
+ allows serializing and deserializing simple or complex GObjects to and
+ from JSON data types.
+
+Package: libjson-glib-doc
+Description-md5: 539f24e15c204394fc39f500e4e62a7d
+Description-oc: Bibliotèca de manipulacion JSON GLib (documentacion)
+ JSON-GLib is a library for parsing, generating and manipulating JavaScript
+ Object Notation (JSON) data streams using the GLib type system. It allows
+ manipulating JSON data types with a Document Object Model API. It also
+ allows serializing and deserializing simple or complex GObjects to and
+ from JSON data types.
+ .
+ This package contains the documentation.
+
+Package: liblouis-data
+Description-md5: 893cb8fa7f66f351dd0d6bbf87a94bab
+Description-oc: Bibliotèca de traduccion Braille - donadas
+ Liblouis is a braille translator and back-translator.  It features support
+ for computer and literary braille, supports contracted and uncontracted
+ translation for many languages and has support for hyphenation.  Liblouis
+ also supports math braille (Nemeth and Marburg).  New languages can easily
+ be added through tables that support a rule- or dictionary based approach.
+ Included are also tools for testing and debugging tables.
+ .
+ This package contains runtime data.
+
+Package: liblouis-dev
+Description-md5: 835f535ec527fdb854cd10e2ecbb2a63
+Description-oc: Bibliotèca de traduccion Braille - entèstas e bibliotècas estaticas
+ Liblouis is a braille translator and back-translator.  It features support
+ for computer and literary braille, supports contracted and uncontracted
+ translation for many languages and has support for hyphenation.  Liblouis
+ also supports math braille (Nemeth and Marburg).
+ .
+ This package contains static libraries and development headers.
+
+Package: liblouis20
+Description-md5: 40448590cf7dc3c13633552fcd3ac521
+Description-oc: Bibliotèca de traduccion Braille - bibliotècas partejadas
+ Liblouis is a braille translator and back-translator.  It features support
+ for computer and literary braille, supports contracted and uncontracted
+ translation for many languages and has support for hyphenation.  Liblouis
+ also supports math braille (Nemeth and Marburg).
+ .
+ This package contains shared libraries.
+
+Package: liblouisutdml-bin
+Description-md5: e5ad51b592aca8521499b732cac49bef
+Description-oc: Utilitaris de traduccion Braille UTML
+ liblouisutdml is an extension of liblouisxml, the translator from xml
+ format into transcribed braille, that includes support for Unified Tactile
+ Document Markup Language (UTDML).
+ .
+ This consists essentially of <brl> subtrees containing all the braille
+ translations and formatting, plus some <meta> tags.
+ .
+ This package contains utdml2brl which translates an utdml or text file
+ into an embosser-ready braille file.
+
+Package: liblouisutdml-data
+Description-md5: b0e5d3cdd24ed881707ef5c4da54819b
+Description-oc: Bibliotèca de traduccion Braille UTML - donadas
+ liblouisutdml is an extension of liblouisxml, the translator from xml
+ format into transcribed braille, that includes support for Unified Tactile
+ Document Markup Language (UTDML).
+ .
+ This consists essentially of <brl> subtrees containing all the braille
+ translations and formatting, plus some <meta> tags.
+ .
+ This package contains runtime data.
+
+Package: liblouisutdml-dev
+Description-md5: f39860db0634d3065b24a95a76d9e4e7
+Description-oc: Bibliotèca de traduccion Braille UTML - entèstas e bibliotècas estaticas
+ liblouisutdml is an extension of liblouisxml, the translator from xml
+ format into transcribed braille, that includes support for Unified Tactile
+ Document Markup Language (UTDML).
+ .
+ This consists essentially of <brl> subtrees containing all the braille
+ translations and formatting, plus some <meta> tags.
+ .
+ This package contains static libraries and development headers.
+
+Package: liblouisutdml9
+Description-md5: 33ef4c16ad2fe97764164c35ae4708a3
+Description-oc: Bibliotèca de traduccion Braille UTML - bibliotècas partejadas
+ liblouisutdml is an extension of liblouisxml, the translator from xml
+ format into transcribed braille, that includes support for Unified Tactile
+ Document Markup Language (UTDML).
+ .
+ This consists essentially of <brl> subtrees containing all the braille
+ translations and formatting, plus some <meta> tags.
+ .
+ This package contains shared libraries.
+
+Package: liblz4-1
+Description-md5: c21cacb9494ced3b87993140a583422c
+Description-oc: Bibliotèca d’algoritme de compression Fast LZ - entorn d’execucion
+ LZ4 is a very fast lossless compression algorithm, providing compression
+ speed at 400 MB/s per core, scalable with multi-cores CPU. It also
+ features an extremely fast decoder, with speed in multiple GB/s per core,
+ typically reaching RAM speed limits on multi-core systems.
+ .
+ This package includes the shared library.
+
+Package: liblz4-dev
+Description-md5: 1414546a26a517bef8510e189d283fbe
+Description-oc: Bibliotèca d’algoritme de compression Fast LZ - fichièrs de desvolopament
+ LZ4 is a very fast lossless compression algorithm, providing compression
+ speed at 400 MB/s per core, scalable with multi-cores CPU. It also
+ features an extremely fast decoder, with speed in multiple GB/s per core,
+ typically reaching RAM speed limits on multi-core systems.
+ .
+ This package contains files that are needed to build applications.
+
+Package: libmysqlclient21
+Description-md5: 49de807663510f5f2afd3e71efe199f1
+Description-oc: Bibliotèca client de basa de donadas MySQL
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the client library.
+
+Package: libnet-ssleay-perl
+Description-md5: ccc2258977dc0f512ba135bc3f4c6bca
+Description-oc: Modul Perl pel Secure Sockets Layer (SSL)
+ Net::SSLeay is a perl module that allows you to call Secure Sockets Layer
+ (SSL) functions of the SSLeay library directly from your perl scripts. It
+ is useful if you want to program robots that access secure web servers or
+ if you want to build your own applications over SSL encrypted tunnels. If
+ you just want to view web pages on https servers, you do not need this -
+ your web browser already knows to do that.
+
+Package: libpcap-dev
+Description-md5: 10078daf2f68ccb78a8fc1970d8c94f5
+Description-oc: development library for libpcap (transitional package)
+ Paquet void per facilitar las mesas a nivèl, se pòt suprimir en tota
+ seguretat.
+
+Package: libpulse-mainloop-glib0
+Description-md5: 1a4eb06cccc1a1ac1118b667f0c37ed7
+Description-oc: Bibliotècas client PulseAudio (compatibilitat glib)
+ PulseAudio, previously known as Polypaudio, is a sound server for POSIX
+ and WIN32 systems. It is a drop in replacement for the ESD sound server
+ with much better latency, mixing/re-sampling quality and overall
+ architecture.
+ .
+ Client libraries used by applications that access a PulseAudio sound
+ server via PulseAudio's native interface.
+ .
+ This package adds support for glib2 client applications.
+
+Package: libreoffice-l10n-oc
+Description-md5: 33ddfe08a196f8f66e1a8e27f2d010cc
+Description-oc: seguida burotica -- paquet lingüistic occitan
+ LibreOffice is a full-featured office productivity suite that provides a
+ near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the localization of LibreOffice in Occitan. It
+ contains the user interface, the templates and the autotext features.
+ (please note that not all this is available for all possible languages).
+ You can switch user interface language using the locales system.
+ .
+ Spelling dictionaries, hyphenation patterns, thesauri and help are not
+ included in this package. There are some available in separate packages
+ (myspell-*, hyphen-*, mythes-*, libreoffice-help-*)
+ .
+ If you just want to be able to spellcheck etc. in other languages, you can
+ install extra dictionaries/hyphenation patterns/thesauri independently of
+ the language packs.
+
+Package: libsane1
+Description-md5: 2f46c9804313fd609f2868bde7d36408
+Description-oc: Bibliotèca d’API per numerizadors de document
+ SANE stands for "Scanner Access Now Easy" and is an application
+ programming interface (API) that provides standardized access to any
+ raster image scanner hardware (flatbed scanner, hand-held scanner, video-
+ and still-cameras, frame-grabbers, etc.). The SANE standard is free and
+ its discussion and development are open to everybody. The current source
+ code is written to support several operating systems, including GNU/Linux,
+ OS/2, Win32 and various Unices and is available under the GNU General
+ Public License (commercial applications and backends are welcome, too,
+ however).
+ .
+ Graphical frontends for sane are available in the packages sane and xsane.
+ Command line frontend scanimage, saned and sane-find-scanner are available
+ in the sane-utils package.
+
+Package: libssl-dev
+Description-md5: 27044468897c45b271f879c7c6e135fe
+Description-oc: espleches  Secure Sockets Layer - fichièrs de desvolopament
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It contains development libraries, header files, and manpages for libssl
+ and libcrypto.
+
+Package: libssl-doc
+Description-md5: 863c8f0d45ab34415ebc295c04753c98
+Description-oc: espleches  Secure Sockets Layer - documentacion de desvolopament
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It contains manpages and demo files for libssl and libcrypto.
+
+Package: libssl3
+Description-md5: 88547c6206c7fbc4fcc7d09ce100d210
+Description-oc: espleches  Secure Sockets Layer - bibliotècas partejadas
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It provides the libssl and libcrypto shared libraries.
+
+Package: libx11-6
+Description-md5: 0a0b5a32a2fcdcc685c7f4b7dd731798
+Description-oc: bibliotèca costat client X11
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of
+ the window system.
+ .
+ More information about X.Org can be found at: <URL:https://www.X.org>
+ .
+ This module can be found at https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-data
+Description-md5: 81164f2e1ff7b227f1b710491521fdab
+Description-oc: bibliotèca costat client X11
+ This package provides the locale data files for libx11.
+ .
+ More information about X.Org can be found at: <URL:https://www.X.org>
+ .
+ This module can be found at https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-dev
+Description-md5: f634d43d2be84f3b53cb251c69f05406
+Description-oc: bibliotèca costat client X11 (entèstas de desvolopament)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of
+ the window system.
+ .
+ This package contains the development headers for the library found in
+ libx11-6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at: <URL:https://www.X.org>
+ .
+ This module can be found at https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-doc
+Description-md5: 030b253f4be4db830ffc8407edc83460
+Description-oc: bibliotèca costat client X11 (documentacion de desvolopament)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of
+ the window system.
+ .
+ This package contains supplemental documentation for the library found in
+ libx11-6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at: <URL:https://www.X.org>
+ .
+ This module can be found at https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-xcb-dev
+Description-md5: 75b3106a8da792445c36c6de2ce79320
+Description-oc: bibliotèca d’interfàcia Xlib/XCB (entèstas de desvolopament)
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ This package contains the development headers for the library found in
+ libx11-xcb1. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at: <URL:https://www.X.org>
+ .
+ Mai d’informacions tocant XCB de trapart a :
+ <URL:https://xcb.freedesktop.org>
+ .
+ This module can be found at https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-xcb1
+Description-md5: e8cc42192edc67630d6e0fef23baa03d
+Description-oc: bibliotèca d’interfàcia Xlib/XCB
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ More information about X.Org can be found at: <URL:https://www.X.org>
+ .
+ Mai d’informacions tocant XCB de trapart a :
+ <URL:https://xcb.freedesktop.org>
+ .
+ This module can be found at https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libxml++2.6-2v5
+Description-md5: 5000d474cafbf7c5dd4265d7b92c45a2
+Description-oc: Interfàcia C++ per la bibliotèca XML de GNOME (libxml2)
+ Libxml++ is a C++ wrapper for the libxml2 XML parser library (otherwise
+ known as the GNOME XML library).  It has SAX and DOM-like APIs, but does
+ not attempt to conform exactly to the DOM specification because they are
+ not aimed at C++.  Its API is much simpler than the underlying libxml C
+ API.
+ .
+ This package contains shared libraries.
+
+Package: libxml2
+Description-md5: 6771e66f557fa0f71e6955303e1d8f8d
+Description-oc: Bibliotèca XML de GNOME
+ XML is a metalanguage to let you design your own markup language. A
+ regular markup language defines a way to describe information in a certain
+ class of documents (eg HTML). XML lets you define your own customized
+ markup languages for many classes of document. It can do this because it's
+ written in SGML, the international standard metalanguage for markup
+ languages.
+ .
+ This package provides a library providing an extensive API to handle such
+ XML data files.
+
+Package: libxmlb2
+Description-md5: a5834ea263db6cdd99112032df9dcef9
+Description-oc: Bibliotèca XML binària
+ The libxmlb library takes XML source, and converts it to a structured
+ binary representation with a deduplicated string table -- where the
+ strings have the NULs included.
+ .
+ This allows an application to mmap the binary XML file, do an XPath query
+ and return some strings without actually parsing the entire document. This
+ is all done using (almost) zero allocations and no actual copying of the
+ binary data.
+
+Package: libxmlsec1-openssl
+Description-md5: 30c12fdc67557c1a789481f24b208a77
+Description-oc: motor OpenSSL per la bibliotèca de seguretat XML
+ The XML Security Library implements standards related to secure handling
+ of XML data.
+ .
+ This package provides dynamic libraries for use by applications.
+ Specifically, it provides the openssl implementation of the XML security
+ library cryptography functions.
+
+Package: linux-firmware
+Description-md5: 7a047bff9e44dce458a300976c12f9da
+Description-oc: Micrologicial pels pilòts del nuclèu Linux
+ Aqueste paquet provesís lo micrologicial utilizat pels pilòts del nuclèu
+ Linux.
+
+Package: linux-generic
+Description-md5: 000d0a6187a93215f75bba542cc6df27
+Description-oc: Nuclèu Linux generic complet e entèstas
+ Aqueste paquet dependrà sonque del darrièra nuclèu Linux generic complet e
+ de las entèstas.
+
+Package: linux-generic-hwe-22.04
+Description-md5: 000d0a6187a93215f75bba542cc6df27
+Description-oc: Nuclèu Linux generic complet e entèstas
+ Aqueste paquet dependrà sonque del darrièra nuclèu Linux generic complet e
+ de las entèstas.
+
+Package: linux-generic-hwe-22.04-edge
+Description-md5: 000d0a6187a93215f75bba542cc6df27
+Description-oc: Nuclèu Linux generic complet e entèstas
+ Aqueste paquet dependrà sonque del darrièra nuclèu Linux generic complet e
+ de las entèstas.
+
+Package: linux-headers-generic
+Description-md5: 9c9742ab9c289b1e900fab477bc0070d
+Description-oc: Entèstas del nuclèu Linux generic
+ This package will always depend on the latest generic kernel headers
+ available.
+
+Package: linux-headers-generic-hwe-22.04
+Description-md5: 9c9742ab9c289b1e900fab477bc0070d
+Description-oc: Entèstas del nuclèu Linux generic
+ This package will always depend on the latest generic kernel headers
+ available.
+
+Package: linux-headers-generic-hwe-22.04-edge
+Description-md5: 9c9742ab9c289b1e900fab477bc0070d
+Description-oc: Entèstas del nuclèu Linux generic
+ This package will always depend on the latest generic kernel headers
+ available.
+
+Package: linux-headers-oem-22.04
+Description-md5: 9b127952a3d3be3a95276b4522f77e4f
+Description-oc: Entèstas del nuclèu Linux generic (paquet transitòri fictiu)
+ Transitional package for upgrades from 22.04 to 22.10.
+
+Package: linux-image-generic
+Description-md5: 6d632579c673704f44b290b16e7dbfd1
+Description-oc: Imatge del nuclèu Linux generic
+ This package will always depend on the latest generic kernel image
+ available.
+
+Package: linux-image-generic-hwe-22.04
+Description-md5: 6d632579c673704f44b290b16e7dbfd1
+Description-oc: Imatge del nuclèu Linux generic
+ This package will always depend on the latest generic kernel image
+ available.
+
+Package: linux-image-generic-hwe-22.04-edge
+Description-md5: 6d632579c673704f44b290b16e7dbfd1
+Description-oc: Imatge del nuclèu Linux generic
+ This package will always depend on the latest generic kernel image
+ available.
+
+Package: linux-image-oem-22.04
+Description-md5: 9e049b808ce4f250ac20e338c4a3354c
+Description-oc: Imatge del nuclèu Linux generic (paquet transitòri fictiu)
+ Transitional package for upgrades from 22.04 to 22.10.
+
+Package: linux-oem-22.04
+Description-md5: 889416d7b19d64b898d782234bab3b47
+Description-oc: Nuclèu Linux generic complet e entèstas (paquet transitòri fictiu)
+ Transitional package for upgrades from 22.04 to 22.10.
+
+Package: linux-tools-generic
+Description-md5: 64a22a7a6c16a9e754ca8416e318c089
+Description-oc: Aisinas del nuclèu Linux generic
+ This package will always depend on the latest generic kernel tools
+ available.
+
+Package: linux-tools-generic-hwe-22.04
+Description-md5: 64a22a7a6c16a9e754ca8416e318c089
+Description-oc: Aisinas del nuclèu Linux generic
+ This package will always depend on the latest generic kernel tools
+ available.
+
+Package: linux-tools-generic-hwe-22.04-edge
+Description-md5: 64a22a7a6c16a9e754ca8416e318c089
+Description-oc: Aisinas del nuclèu Linux generic
+ This package will always depend on the latest generic kernel tools
+ available.
+
+Package: linux-tools-oem-22.04
+Description-md5: d59b92442735d521fb9c52b0e9ae6e04
+Description-oc: Aisinas del nuclèu Linux generic (paquet transitòri fictiu)
+ Transitional package for upgrades from 22.04 to 22.10.
+
+Package: linux-virtual
+Description-md5: 71a1a38f6977c1a1bbc8a7634f51401c
+Description-oc: Nuclèu Linux generic e entèstas minimals
+ This package will always depend on linux-image-virtual and linux-headers-
+ virtual.
+
+Package: linux-virtual-hwe-22.04
+Description-md5: 71a1a38f6977c1a1bbc8a7634f51401c
+Description-oc: Nuclèu Linux generic e entèstas minimals
+ This package will always depend on linux-image-virtual and linux-headers-
+ virtual.
+
+Package: linux-virtual-hwe-22.04-edge
+Description-md5: 71a1a38f6977c1a1bbc8a7634f51401c
+Description-oc: Nuclèu Linux generic e entèstas minimals
+ This package will always depend on linux-image-virtual and linux-headers-
+ virtual.
+
+Package: localechooser-data
+Description-md5: 784619ad1af4a25c5b4fbee6739c3344
+Description-oc: Lista las lengas e variantas presas en carga per l’installator.
+ Aqueste paquet conten de listas de lengas, païses e variantas lingüisticas
+ presas en carga per l’installador, pels programa que crèan de scripts
+ d’installacion automatica.
+
+Package: locales
+Description-md5: 68ccf846a4935e541c4a717fc0a1f3e3
+Description-oc: GNU C Library : donadas de lenga e paramètres regionals [support]
+ Machine-readable data files, shared objects and programs used by the C
+ library for localization (l10n) and internationalization (i18n) support.
+ .
+ This package contains tools to generate locale definitions from source
+ files (included in this package). It allows you to customize which
+ definitions actually get generated. This is a space-saver over how this
+ package used to be, with all locales generated by default. This created a
+ package that unpacked to an excess of 30 megs.
+
+Package: lvm2
+Description-md5: 9df95d102d2b0aad5aff13603ef0cb3f
+Description-oc: Gestionari de volum logic Linux
+ This is LVM2, the rewrite of The Linux Logical Volume Manager.  LVM
+ supports enterprise level volume management of disk and disk subsystems by
+ grouping arbitrary disks into volume groups. The total capacity of volume
+ groups can be allocated to logical volumes, which are accessed as regular
+ block devices.
+
+Package: myspell-eo
+Description-md5: efb06099d38aa921d0d62eb891445f30
+Description-oc: diccionari esperanto per hunspell
+ This is the Esperanto dictionary for use with the myspell spellchecker,
+ which is currently used within OpenOffice.org and the mozilla
+ spellchecker. The dictionary is based on the words from Plena Ilustrita
+ Vortaro, with additional country/language names. It accepts Latin-3 form.
+
+Package: mysql-client
+Description-md5: 5d7fa8d3505d811b2b9e71e639c7e1dd
+Description-oc: Client de basa de donadas MySQL (metapaquet dependent de la darrièra version)
+ This is an empty package that depends on the current "best" version of
+ mysql-client (currently mysql-client-8.0), as determined by the MySQL
+ maintainers.  Install this package if in doubt about which MySQL version
+ you want, as this is the one considered to be in the best shape by the
+ Maintainers.
+
+Package: mysql-client-8.0
+Description-md5: ffe884a5da09cb7b198d6de70b149317
+Description-oc: Binàrias client de basa de donadas MySQL
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes the client binaries and the additional tool
+ mysqlreport.
+
+Package: nautilus-data
+Description-md5: d164dca99682ab7c25a900f1754f8f13
+Description-oc: data files for nautilus
+ Nautilus is the official file manager and graphical shell for the GNOME
+ desktop.
+ .
+ Aqueste paquet conten d’imatges, de fichièrs de traduccion e d’autras
+ donadas requeridas per nautilus.
+
+Package: nova-volume
+Description-md5: f85e1ba6a9aabcaf096890562606c8de
+Description-oc: OpenStack Compute - storage
+ OpenStack is a reliable cloud infrastructure. Its mission is to produce
+ the ubiquitous cloud computing platform that will meet the needs of public
+ and private cloud providers regardless of size, by being simple to
+ implement and massively scalable.
+ .
+ OpenStack Compute, codenamed Nova, is a cloud computing fabric controller.
+ In addition to its "native" API (the OpenStack API), it also supports the
+ Amazon EC2 API.
+ .
+ Nova is intended to be modular and easy to extend and adapt. It supports
+ many different hypervisors (KVM and Xen to name a few), different database
+ backends (SQLite, MySQL, and PostgreSQL, for instance), different types of
+ user databases (LDAP or SQL), etc.
+ .
+ Aquò es un paquet factici transitòri que se pòt suprimir aprèp mesa a
+ nivèl.
+
+Package: openssh-client
+Description-md5: 8cde3280ebad71c16b3e8c661dae6c6d
+Description-oc: secure shell (SSH) client, for secure access to remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and for
+ executing commands on a remote machine. It provides secure encrypted
+ communications between two untrusted hosts over an insecure network. X11
+ connections and arbitrary TCP/IP ports can also be forwarded over the
+ secure channel. It can be used to provide applications with a secure
+ communication channel.
+ .
+ This package provides the ssh, scp and sftp clients, the ssh-agent and
+ ssh-add programs to make public key authentication more convenient, and
+ the ssh-keygen, ssh-keyscan, ssh-copy-id and ssh-argv0 utilities.
+ .
+ Dins d’unes païses pòt èsser illegal d’utilizar qual chiframent que siá
+ sens autorizacion especiala.
+ .
+ ssh replaces the insecure rsh, rcp and rlogin programs, which are obsolete
+ for most purposes.
+
+Package: openssh-server
+Description-md5: 842cc998cae371b9d8106c1696373919
+Description-oc: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and for
+ executing commands on a remote machine. It provides secure encrypted
+ communications between two untrusted hosts over an insecure network. X11
+ connections and arbitrary TCP/IP ports can also be forwarded over the
+ secure channel. It can be used to provide applications with a secure
+ communication channel.
+ .
+ This package provides the sshd server.
+ .
+ Dins d’unes païses pòt èsser illegal d’utilizar qual chiframent que siá
+ sens autorizacion especiala.
+ .
+ sshd replaces the insecure rshd program, which is obsolete for most
+ purposes.
+
+Package: openssl
+Description-md5: 9b6de2bb6e1d9016aeb0f00bcf6617bd
+Description-oc: espleches  Secure Sockets Layer - utilitari de criptografia
+ This package is part of the OpenSSL project's implementation of the SSL
+ and TLS cryptographic protocols for secure communication over the
+ Internet.
+ .
+ It contains the general-purpose command line binary /usr/bin/openssl, useful for cryptographic operations such as:
+  * creating RSA, DH, and DSA key parameters;
+  * creating X.509 certificates, CSRs, and CRLs;
+  * calculating message digests;
+  * encrypting and decrypting with ciphers;
+  * testing SSL/TLS clients and servers;
+  * handling S/MIME signed or encrypted mail.
+
+
+Package: openvpn
+Description-md5: 2ebe91e411d46309a61861db507e5c2f
+Description-oc: demòni de ret virtual privat
+ OpenVPN is an application to securely tunnel IP networks over a single UDP
+ or TCP port. It can be used to access remote sites, make secure point-to-
+ point connections, enhance wireless security, etc.
+ .
+ OpenVPN uses all of the encryption, authentication, and certification
+ features provided by the OpenSSL library (any cipher, key size, or HMAC
+ digest).
+ .
+ OpenVPN may use static, pre-shared keys or TLS-based dynamic key exchange.
+ It also supports VPNs with dynamic endpoints (DHCP or dial-up clients),
+ tunnels over NAT or connection-oriented stateful firewalls (such as
+ Linux's iptables).
+
+Package: php8.1-pspell
+Description-md5: 924e2e1a212b3efcd067569724a15d8b
+Description-oc: modul pspell per PHP
+ This package provides the pspell module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+
+Package: printer-driver-gutenprint
+Description-md5: 5f4c29079db880e202fde946549381ae
+Description-oc: pilòts d’impression per CUPS
+ This package includes a CUPS driver based on Gutenprint.
+ .
+ The CUPS drivers contain all of the files needed to support photo-quality
+ printing on any printer supported by Gutenprint.  You can find out more
+ about the Common UNIX Printing System ("CUPS"), an IPP-based printing
+ system for UNIX/Linux, at:
+ .
+   http://www.cups.org
+ .
+ Gutenprint is the print facility for the GIMP, and in addition a suite of
+ drivers that may be used with common UNIX spooling systems using
+ GhostScript or CUPS.  These drivers provide printing quality for
+ UNIX/Linux on a par with proprietary vendor-supplied drivers in many
+ cases, and can be used for many of the most demanding printing tasks.
+ Gutenprint was formerly known as Gimp-Print.
+
+Package: python-apt-common
+Description-md5: 9486cdd426b423b724eaae43fef5dcd7
+Description-oc: Interfàcia Python per libapt-pkg (locales)
+ The apt_pkg Python interface will provide full access to the internal
+ libapt-pkg structures allowing Python programs to easily perform a variety
+ of functions.
+ .
+ Aqueste paquet conten de paramètres regionals
+
+Package: python3-distupgrade
+Description-md5: f6e22affea82016bac7bf2c9371af261
+Description-oc: gestion de las mesa a nivèl de version
+ This is the DistUpgrade Python 3 module
+
+Package: python3-dnspython
+Description-md5: e8ca40ba161714136492e9a824e8365e
+Description-oc: espleches DNS per Python 3
+ dnspython is a DNS toolkit for Python. It supports almost all record
+ types. It can be used for queries, zone transfers, and dynamic updates. It
+ supports TSIG authenticated messages and EDNS0.
+ .
+ With recommended additional dependencies installed it also support DNS
+ Over HTTPS (DOH), DNSSEC, and non-ascii (IDNA) DNS operations.  It can
+ support asynchronous if python3-sniffio and python3-trio are installed,
+ but this is not the default.
+ .
+ dnspython provides both high and low level access to DNS. The high level
+ classes perform queries for data of a given name, type, and class, and
+ return an answer set. The low level classes allow direct manipulation of
+ DNS zones, messages, names, and records.
+ .
+ This is the Python 3 version.
+
+Package: rhythmbox-data
+Description-md5: 42958a23b3c14ae41a3238d088043e3e
+Description-oc: data files for rhythmbox
+ Rhythmbox is a very easy to use music playing and management program which
+ supports a wide range of audio formats (including mp3 and ogg). Originally
+ inspired by Apple's iTunes, the current version also supports Internet
+ Radio, iPod integration and generic portable audio player support, Audio
+ CD burning, Audio CD playback, music sharing, and Podcasts.
+ .
+ Aqueste paquet conten d’imatges, de fichièrs de traduccion e d’autras
+ donadas requeridas per rhythmbox.
+
+Package: systemd
+Description-md5: 19399579cbc0c47a303288bf15eadcd4
+Description-oc: gestionari de sistèma e servici
+ systemd is a system and service manager for Linux. It provides aggressive
+ parallelization capabilities, uses socket and D-Bus activation for
+ starting services, offers on-demand starting of daemons, keeps track of
+ processes using Linux control groups, maintains mount and automount points
+ and implements an elaborate transactional dependency-based service control
+ logic.
+ .
+ systemd is compatible with SysV and LSB init scripts and can work as a
+ drop-in replacement for sysvinit.
+ .
+ Installing the systemd package will not switch your init system unless you
+ boot with init=/lib/systemd/systemd or install systemd-sysv in addition.
+
+Package: systemd-timesyncd
+Description-md5: cc67d85c248836d96a6310e58a659de0
+Description-oc: servici minimalista de sincronizacion d'ora locala amb servidors NTP
+ The package contains the systemd-timesyncd system service that may be used
+ to synchronize the local system clock with a remote Network Time Protocol
+ server.
+
+Package: thunderbird
+Description-md5: 68ed1001b79d708ad48956a0c129114d
+Description-oc: Client de corrièl, RSS e gropes de discussion amb un filtre span integrat
+ Thunderbird is a full-featured email, RSS and newsgroup client that makes
+ emailing safer, faster and easier than ever before. It supports different
+ mail accounts (POP, IMAP, Gmail), has a simple mail account setup wizard,
+ one- click address book, tabbed interface, an integrated learning spam
+ filter, advanced search and indexing capabilities, and offers easy
+ organization of mails with tagging and virtual folders. It also features
+ unrivalled extensibility.
+
+Package: thunderbird-dev
+Description-md5: ed0f982f9fa22e467d1d4b7351350cd1
+Description-oc: Client de corrièl, RSS e gropes de discussion - fichièrs de desvolopament
+ This is a transitional package to ensure that upgrades work correctly. It
+ can be safely removed
+
+Package: thunderbird-gnome-support
+Description-md5: c6d750d99833a5a122c5bdc00727ccaa
+Description-oc: Client de corrièl, RSS e gropes de discussion - Presa en carga GNOME
+ Thunderbird is a full-featured email, RSS and newsgroup client that makes
+ emailing safer, faster and easier than ever before. It supports different
+ mail accounts (POP, IMAP, Gmail), has a simple mail account setup wizard,
+ one- click address book, tabbed interface, an integrated learning spam
+ filter, advanced search and indexing capabilities, and offers easy
+ organization of mails with tagging and virtual folders. It also features
+ unrivalled extensibility.
+ .
+ This package depends on the GNOME libraries which allow Thunderbird to
+ take advantage of technologies such as GConf, GIO and libnotify
+
+Package: thunderbird-locale-en
+Description-md5: 7997849dd0bc6d27079f5d5768aba1a0
+Description-oc: Paquet lingüistic anglés per Thunderbird
+ This package contains English translations and search plugins for
+ Thunderbird
+
+Package: thunderbird-locale-en-gb
+Description-md5: 8b798a69e82f8ec9cbb2e264601a14fb
+Description-oc: Paquet lingüistic anglés de transicion per Thunderbird
+ This is a transitional package to ensure that upgrades work correctly. It
+ can be safely removed
+
+Package: thunderbird-locale-en-us
+Description-md5: 8b798a69e82f8ec9cbb2e264601a14fb
+Description-oc: Paquet lingüistic anglés de transicion per Thunderbird
+ This is a transitional package to ensure that upgrades work correctly. It
+ can be safely removed
+
+Package: tzdata
+Description-md5: a77a3cc9a67658dd7cfdc6547391b8f8
+Description-oc: donadas de fus oraris e d’ora d’estiu
+ This package contains data required for the implementation of standard
+ local time for many representative locations around the globe. It is
+ updated periodically to reflect changes made by political bodies to time
+ zone boundaries, UTC offsets, and daylight-saving rules.
+
+Package: ubuntu-advantage-tools
+Description-md5: 2b8b4aff5fd6c4f911b6f1a69d492e11
+Description-oc: aisinas de gestion per Ubuntu Advantage
+ Ubuntu Advantage is the professional package of tooling, technology and
+ expertise from Canonical, helping organisations around the world manage
+ their Ubuntu deployments.
+ .
+ Subscribers to Ubuntu Advantage will find helpful tools for accessing
+ services in this package.
+
+Package: ubuntu-release-upgrader-core
+Description-md5: 9b6ae3ba71aff05989e4c93c17227206
+Description-oc: gestion de las mesa a nivèl de version
+ This is the core of the Ubuntu Release Upgrader
+
+Package: ubuntu-release-upgrader-gtk
+Description-md5: 0f775b1b3e524ee71526ea41b76d44cb
+Description-oc: gestion de las mesa a nivèl de version
+ This is the GTK+ frontend of the Ubuntu Release Upgrader
+
+Package: ubuntu-session
+Description-md5: 91f3333d04d3caeb202708d93d05850e
+Description-oc: Session Ubuntu amb GNOME Shell
+ This package contains the required components for running a GNOME 3
+ session with default Ubuntu configuration, based on the GNOME Shell.
+
+Package: unattended-upgrades
+Description-md5: 13ffb6fcb282e3e2203472fa9b1a59f7
+Description-oc: installacion automatica de mesa a nivèl de seguretat
+ This package can download and install security upgrades automatically and
+ unattended, taking care to only install packages from the configured APT
+ source, and checking for dpkg prompts about configuration file changes.
+ .
+ This script is the backend for the APT::Periodic::Unattended-Upgrade
+ option.
+
+Package: update-manager
+Description-md5: 590b36e19703392a6fe86ceaa8467c85
+Description-oc: GNOME application that manages apt updates
+ Aquò es lo gestionari de mesa a jorn apt de GNOME. Verifica las mesas a
+ jorn e demanda a l’utilizaire quinas installar.
+
+Package: update-manager-core
+Description-md5: 0a19dc54e8c67de7adf0ecfe839b541f
+Description-oc: gestion de las mesa a nivèl de version
+ Aquò es lo còr del gestionari de mesas a jorn e de mesas a nivèl
+
+Package: usb.ids
+Description-md5: df2575bd4657190a3f96c60f7dc3d35e
+Description-oc: Referencial d’ID USB
+ This package contains the usb.ids file, a public repository of all known
+ ID's used in USB devices: ID's of vendors, devices, subsystems and device
+ classes. It is used in various programs to display full human-readable
+ names instead of cryptic numeric codes.
+
+Package: util-linux-locales
+Description-md5: f95b3ab812286b8c8633178bd53a7587
+Description-oc: fichièrs de localizacion per util-linux
+ This package contains the internationalization files for the util-linux
+ package.
+ .
+ They are needed when you want the programs in util-linux to print their
+ messages in other languages than English.
+
+Package: yaru-theme-gnome-shell
+Description-md5: df1960daa1bf06cfb631cb74ba506b27
+Description-oc: Tèma Yura pel burèu GNOME Shell de la comunautat Ubuntu
+ This is the theme, better than a burrito, that is shaped by the community
+ on the Ubuntu discourse.
+ .
+ Aqueste paquet conten de tròces de tèma per GNOME Shell
+ .
+ If you want to follow development, more information here:
+ https://community.ubuntu.com/c/desktop/theme-refresh.
+
+Package: yaru-theme-sound
+Description-md5: 4d20510de98f2150f6880c6d066f0bcd
+Description-oc: Tèma sonòr Yaru de la comunautat Ubuntu
+ This is the theme, better than a burrito, that is shaped by the community
+ on the Ubuntu discourse.
+ .
+ Aqueste paquet conten un tèma sonòr
+ .
+ If you want to follow development, more information here:
+ https://community.ubuntu.com/c/desktop/theme-refresh.
+
+Package: zip
+Description-md5: 581928d34d669e63c353cd694bd040b0
+Description-oc: Archivador per fichièrs .zip
+ This is InfoZIP's zip program. It produces files that are fully compatible
+ with the popular PKZIP program; however, the command line options are not
+ identical. In other words, the end result is the same, but the methods
+ differ. :-)
+ .
+ This version supports encryption.
+
+Package: zsh-doc
+Description-md5: 9b5459fce7bedf54d5694a22e68389c7
+Description-oc: Documentacion de zsh als formats info e HTML
+ Zsh is a UNIX command interpreter (shell) usable as an interactive login
+ shell and as a shell script command processor. Of the standard shells, zsh
+ most closely resembles ksh but includes many enhancements. Zsh has
+ command-line editing, built-in spelling correction, programmable command
+ completion, shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ Aqueste paquet conten la documentacion als formats GNU info e HTML.
+

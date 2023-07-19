@@ -1,0 +1,24 @@
+Package: bcmwl-kernel-source
+Description-md5: 9da890d8409fb430fa6f9a0c8a37934a
+Description-hr: Broadcom 802.11 Linux STA wireless izvor upravljačkog programa
+ Ovaj paket sadrži Broadcom 802.11 Linux STA wireless upravljački program
+ koji se koristi za Broadcom BCM4311-, BCM4312-, BCM4313-, BCM4321-,
+ BCM4322-, BCM43224-, i BCM43225-, BCM43227- i BCM43228-temeljen hardver.
+
+Package: sl-modem-daemon
+Description-md5: dd33edc29e8f6ca6bd7aaea974c49391
+Description-hr: SmartLink softver modem pozadinski program
+ SmartLink modem pozadinski program je aplikacija dio upravljačkog programa
+ za nedavne modeme koje je proizvela Smart Link d.o.o.
+ .
+ Ovaj paket zamjenjuje (uz upravljačke programe hardverskog pristupa)
+ starije generacije upravljačkog programa (2.7.x) koji obuhvaća samo module
+ kernela.
+ .
+ Potreban je upravljački program kernela za pristup hardveru. To se može
+ učiniti s novijom ALSA-om (isporučenom s novijim kernelom (>=2.6.4) s ALSA
+ podrškom i snd-intel8x0m modulom) koja je dovoljna za osnovne radnje i
+ podatkovno/Internet povezivanje, ili SmartLink kernel upravljačkim
+ programom koji je omogućen u odvojenim paketima koji možete izgraditi
+ koristeći izvorni kôd sa sl-modem-dkms pakata.
+

@@ -1,0 +1,31 @@
+Package: kubuntu-restricted-addons
+Description-md5: d1762d094551b6ebca85a1049fc60dc1
+Description-cs: Běžně používané nesvobodné balíky pro Kubuntu
+ This package depends on some commonly used packages in the Kubuntu
+ universe and multiverse repositories.
+ .
+ You should not install this package directly, but instead install the
+ kubuntu-restricted-extras package.
+
+Package: qcomicbook
+Description-md5: 5e1e59ae80d5250683bcf393eda201bc
+Description-cs: QT prohlížeč komiksů (formáty cbr/cbz/cba/cbg/cbb)
+ QComicBook je prohlížeč komiksů složených z obrázků jpeg/png, což je
+ výhodné pro jejich pohodlné a jednoduché prohlížení. Mezi jejich
+ vlastnosti patří: automatická dekomprese, celoobrazovkový mód, změna
+ měřítka stránky, navigace pomocí myši a klávesnice, atd.
+ .
+ QComicBook for now supports archives:
+  - cbr - rar-compressed
+  - cbz - zip-compressed
+  - cba - ace-compressed
+  - cbg - targzipped
+  - cbb - tarbzip2ped
+
+
+Package: ubuntu-restricted-addons
+Description-md5: 1a61890ad8e3fb16727ca6a6b66aacbf
+Description-cs: Běžně používané nesvobodné balíky pro Ubuntu
+ This package depends on some commonly used packages in the Ubuntu universe
+ and multiverse repositories.
+

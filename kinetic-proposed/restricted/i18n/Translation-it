@@ -1,0 +1,25 @@
+Package: bcmwl-kernel-source
+Description-md5: 9da890d8409fb430fa6f9a0c8a37934a
+Description-it: Sorgenti del driver wireless Linux STA Broadcom 802.11
+ Questo pacchetto contiene i driver per reti senza fili Broadcom 802.11
+ Linux STA, da utilizzare con hardware Broadcom basato su BCM4311-,
+ BCM4312-, BCM4313-, BCM4321-, BCM4322-, BCM43224-, BCM43225-, BCM43227- e
+ BCM43228-.
+
+Package: sl-modem-daemon
+Description-md5: dd33edc29e8f6ca6bd7aaea974c49391
+Description-it: Demone del modem software SmartLink
+ Il demone del modem SmartLink è la parte di applicazione del driver per i
+ modem recenti prodotti da SmartLink Ltd.
+ .
+ Questo pacchetto sostituisce (unitamente ai driver di accesso
+ all'hardware) la vecchia generazione di driver (2.7.x) che consisteva dei
+ soli moduli del kernel.
+ .
+ È necessario un driver per il kernel per avere accesso all'hardware. È
+ possibile utilizzare sia un il nuovo ALSA (fornito con kernel più recenti
+ (>=2.6.4) con supporto ALSA e il modulo snd-intel8x0m), sufficiente per
+ operazioni basilari e per connessioni a dati e a Internet, o il kernel
+ SmartLink, fornito da pacchetti separati che è possibile costruire
+ utilizzando il sorgente dal pacchetto sl-modem-dkms.
+

@@ -1,0 +1,938 @@
+Package: 0ad
+Description-md5: d943033bedada21853d2ae54a2578a7b
+Description-hr: Strategijska igra drevnih ratovanja u stvarnom veremenu
+ 0 A.D. (izgovara se "zero ey-dee") je besplatna, otvorenog kôda,
+ višeplatformska strategijska igra drevnih ratovanja u stvarnom vermenu
+ (RTS) . Ukratko, to je povijesno temeljena ratno/ekonomska igra koja
+ omogućuje igračima da ponovno ožive i prožive povijest Zapadnih
+ civilizacija, fokusom na godine između 500 p.k. i 500 n.k. Projekt je vrlo
+ ambiciozan, uključuje razvoj 3D grafike, opširnih ilustracija krajolika,
+ zvukova, fleksibilnog i snažnog ugrađenog prilagođenog pogona igre.
+
+Package: 0ad-data
+Description-md5: 26581e685027d5ae84824362a4ba59ee
+Description-hr: Strategijska igra drevnih ratovanja u stvarnom veremenu (datoteke podataka)
+ 0 A.D. (izgovara se "zero ey-dee") je besplatna, otvorenog kôda,
+ višeplatformska strategijska igra drevnih ratovanja u stvarnom vermenu
+ (RTS) . Ukratko, to je povijesno temeljena ratno/ekonomska igra koja
+ omogućuje igračima da ponovno ožive i prožive povijest Zapadnih
+ civilizacija, fokusom na godine između 500 p.k. i 500 n.k. Projekt je vrlo
+ ambiciozan, uključuje razvoj 3D grafike, opširnih ilustracija krajolika,
+ zvukova, fleksibilnog i snažnog ugrađenog prilagođenog pogona igre.
+ .
+ Ovaj paket sadrži datoteke glavnih podataka potrebnih za 0 A.D.
+
+Package: 0ad-data-common
+Description-md5: 8d014b839c4c4e9b6f82c7512d7e3496
+Description-hr: Strategijska igra drevnih ratovanja u stvarnom veremenu (uobičajeni podataka)
+ 0 A.D. (izgovara se "zero ey-dee") je besplatna, otvorenog kôda,
+ višeplatformska strategijska igra drevnih ratovanja u stvarnom vermenu
+ (RTS) . Ukratko, to je povijesno temeljena ratno/ekonomska igra koja
+ omogućuje igračima da ponovno ožive i prožive povijest Zapadnih
+ civilizacija, fokusom na godine između 500 p.k. i 500 n.k. Projekt je vrlo
+ ambiciozan, uključuje razvoj 3D grafike, opširnih ilustracija krajolika,
+ zvukova, fleksibilnog i snažnog ugrađenog prilagođenog pogona igre.
+ .
+ Ovaj paket sadrži datoteke podataka (podešavanja i alate) potrebnih za 0
+ A.D.
+
+Package: 3270-common
+Description-md5: a1fad8fe7f911b2c01164ff75d013e53
+Description-hr: Uobičajene datoteke za IBM 3270 emulatore i pr3287
+ 3270-common contains files referenced in other 3270 packages
+
+Package: cinnamon
+Description-md5: 85a575fee9af55bc8d39cbd88a551b9d
+Description-hr: Innovative and comfortable desktop
+ Cinnamon je okruženje radne površine koje omogućuje napredne inovativne
+ značajke i tradicionalno korisničko iskustvo.
+ .
+ The desktop layout is similar to GNOME 2.  The underlying technology is
+ forked from gnome-shell.  The emphasis is put on making users feel at home
+ and providing them with an easy to use and comfortable desktop experience.
+
+Package: cinnamon-common
+Description-md5: e46179d94fb5e328c6af58cab1200e40
+Description-hr: Innovative and comfortable desktop (Common data files)
+ Cinnamon je okruženje radne površine koje omogućuje napredne inovativne
+ značajke i tradicionalno korisničko iskustvo.
+ .
+ The desktop layout is similar to GNOME 2.  The underlying technology is
+ forked from gnome-shell.  The emphasis is put on making users feel at home
+ and providing them with an easy to use and comfortable desktop experience.
+ .
+ Ovaj paket sadrži datoteke podataka potrebnih Cinnamonu
+
+Package: cinnamon-doc
+Description-md5: 9ef440ff71ad9c38463c3f77c6c0dff0
+Description-hr: Innovative and comfortable desktop (Documentation)
+ Cinnamon je okruženje radne površine koje omogućuje napredne inovativne
+ značajke i tradicionalno korisničko iskustvo.
+ .
+ The desktop layout is similar to GNOME 2.  The underlying technology is
+ forked from gnome-shell.  The emphasis is put on making users feel at home
+ and providing them with an easy to use and comfortable desktop experience.
+ .
+ This package contains the documentation files distributed with Cinnamon.
+
+Package: clementine
+Description-md5: e194c11c413c82b36dbde39650ae34e9
+Description-hr: modern music player and library organizer
+ Clementine je višeplatformski glazbeni svirač s naglaskom na brzo i
+ jednostavano korištenje sučelja za pretraživanje i sviranje vaše glazbe.
+ .
+ Summary of included features :
+  - Search and play your local music library.
+  - Listen to internet radio from ROCKRADIO.com, RadioTunes.com,
+    IntergalacticFM, SomaFM, Magnatune, Jamendo, Digitally Imported,
+    ClassicalRadio.com, JAZZRADIO.com, Icecast and Subsonic servers.
+  - Search and play songs you've uploaded to SeaFile, Box, Dropbox, Google
+    Drive, and OneDrive.
+  - Create smart playlists and dynamic playlists.
+  - Tabbed playlists, import and export M3U, XSPF, PLS and ASX.
+  - CUE sheet support.
+  - Play audio CDs.
+  - Visualisations from projectM.
+  - Lyrics and artist biographies and photos.
+  - Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC.
+  - Edit tags on MP3 and OGG files, organise your music.
+  - Fetch missing tags from MusicBrainz.
+  - Discover and download Podcasts.
+  - Download missing album cover art from Last.fm.
+  - Native desktop notifications using libnotify.
+  - Remote control using an Android device, a Wii Remote, MPRIS or the
+    command-line.
+  - Copy music to your iPod, iPhone, MTP or mass-storage USB player.
+  - Queue manager.
+
+
+Package: gcc-10-aarch64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-alpha-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-arm-linux-gnueabi-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-arm-linux-gnueabihf-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-hppa-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-i686-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-m68k-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-mips-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-mips64-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-mips64el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-mipsel-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-mipsisa32r6-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-mipsisa32r6el-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-mipsisa64r6-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-mipsisa64r6el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-powerpc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-powerpc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-powerpc64le-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-riscv64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-s390x-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-sh4-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-sparc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-10-x86-64-linux-gnux32-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-aarch64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-alpha-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-arm-linux-gnueabi-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-arm-linux-gnueabihf-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-hppa-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-i686-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-m68k-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-powerpc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-powerpc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-powerpc64le-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-riscv64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-s390x-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-sh4-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-sparc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-x86-64-linux-gnux32-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-12-alpha-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-12-arm-linux-gnueabi-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-12-hppa-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-12-i686-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-12-m68k-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-12-powerpc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-12-powerpc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-12-riscv64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-12-sh4-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-12-sparc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-12-x86-64-linux-gnux32-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-aarch64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-alpha-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-arm-linux-gnueabi-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-arm-linux-gnueabihf-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-hppa-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-i686-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-m68k-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-mips-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-mips64-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-mips64el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-mipsel-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-mipsisa32r6-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-mipsisa32r6el-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-mipsisa64r6-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-mipsisa64r6el-linux-gnuabi64-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-powerpc-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-powerpc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-powerpc64le-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-riscv64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-s390x-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-sh4-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-sparc64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-x86-64-linux-gnux32-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gnome-software
+Description-md5: c18037138f62996f54244e20a5eee15b
+Description-hr: Software Center for GNOME
+ Softver vam omogućuje instalaciju i nadopunu aplikacija i proširenja
+ sustava.
+ .
+ Softver koristi priključak arhitekture kako bi odvojio prednje tehnologije
+ od pozadinskih. Trenutno, PackageKit priključak omogućuje podatke iz
+ brojnih tradicionalnih paketnih sustava, poput apt i rpm. Appdata
+ priključak omogućuje dodatne metapodatke iz lokalno instaliranih podataka
+ u appdata formatu.
+
+Package: gnome-software-common
+Description-md5: a52964f99bc0ad87fa14fa1afc5a66d8
+Description-hr: Software Center for GNOME (common files)
+ Softver vam omogućuje instalaciju i nadopunu aplikacija i proširenja
+ sustava.
+ .
+ Softver koristi priključak arhitekture kako bi odvojio prednje tehnologije
+ od pozadinskih. Trenutno, PackageKit priključak omogućuje podatke iz
+ brojnih tradicionalnih paketnih sustava, poput apt i rpm. Appdata
+ priključak omogućuje dodatne metapodatke iz lokalno instaliranih podataka
+ u appdata formatu.
+ .
+ This package contains the architecture-independent files.
+
+Package: gnome-software-dev
+Description-md5: a685973217137603fee623d0248a8bbf
+Description-hr: Software Center for GNOME - development files
+ Softver vam omogućuje instalaciju i nadopunu aplikacija i proširenja
+ sustava.
+ .
+ This package contains headers and other files required when compiling
+ external plugins for use with Software.
+
+Package: gnome-software-doc
+Description-md5: 1f2b6f59f2b2cd70411e140d8567de54
+Description-hr: Software Center for GNOME - documentation
+ Softver vam omogućuje instalaciju i nadopunu aplikacija i proširenja
+ sustava.
+ .
+ This package contains documentation for use when developing plugins for
+ Software.
+
+Package: gnome-software-plugin-flatpak
+Description-md5: 17e17f1c979bf0356663d39a226e1efb
+Description-hr: Flatpak support for GNOME Software
+ Softver vam omogućuje instalaciju i nadopunu aplikacija i proširenja
+ sustava.
+ .
+ Softver koristi priključak arhitekture kako bi odvojio prednje tehnologije
+ od pozadinskih. Trenutno, PackageKit priključak omogućuje podatke iz
+ brojnih tradicionalnih paketnih sustava, poput apt i rpm. Appdata
+ priključak omogućuje dodatne metapodatke iz lokalno instaliranih podataka
+ u appdata formatu.
+ .
+ This package contains the Flatpak plugin.
+
+Package: gnome-software-plugin-snap
+Description-md5: 350535e017d3ca23c8ef2ee15a9a07e1
+Description-hr: Snap support for GNOME Software
+ Softver vam omogućuje instalaciju i nadopunu aplikacija i proširenja
+ sustava.
+ .
+ Softver koristi priključak arhitekture kako bi odvojio prednje tehnologije
+ od pozadinskih. Trenutno, PackageKit priključak omogućuje podatke iz
+ brojnih tradicionalnih paketnih sustava, poput apt i rpm. Appdata
+ priključak omogućuje dodatne metapodatke iz lokalno instaliranih podataka
+ u appdata formatu.
+ .
+ This package contains the Snap plugin.
+
+Package: linux-libc-dev-alpha-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-amd64-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-armel-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-hppa-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-i386-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-m68k-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-mips-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-mips64-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-mips64el-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-mips64r6-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-mips64r6el-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-mipsel-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-mipsn32-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-mipsn32el-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-mipsn32r6-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-mipsn32r6el-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-mipsr6-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-mipsr6el-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-powerpc-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-ppc64-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-riscv64-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-sh4-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-sparc64-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: linux-libc-dev-x32-cross
+Description-md5: 1451bbb6883623d253eaf0cf7565213a
+Description-hr: Linux kernel zaglavlja za razvoj (za višeplatformsku kompilaciju)
+ This package provides headers from the Linux kernel.  These headers are
+ used by the installed headers for GNU glibc and other system libraries.
+ They are NOT meant to be used to build third-party modules for your
+ kernel. Use linux-headers-* packages for that.
+
+Package: nemo
+Description-md5: 2de74fdb31432279c715f87a45768e42
+Description-hr: Upravitelj datoteka i grafička ljuska za Cinnamon
+ Nemo is the official file manager for the Cinnamon desktop. It allows one
+ to browse directories, preview files and launch applications associated
+ with them. It is also responsible for handling the icons on the Cinnamon
+ desktop. It works on local and remote filesystems.
+ .
+ Several icon themes and components for viewing different kinds of files
+ are available in separate packages.
+
+Package: nemo-data
+Description-md5: 2191910dfb2321d4a02010c25f7b6997
+Description-hr: Upravitelj datoteka i grafička ljuska za Cinnamon (datoteke podataka)
+ Nemo is the official file manager for the Cinnamon desktop. It allows one
+ to browse directories, preview files and launch applications associated
+ with them. It is also responsible for handling the icons on the Cinnamon
+ desktop. It works on local and remote filesystems.
+ .
+ This package contains pictures, localization files and other data needed
+ by nemo.
+
+Package: smplayer-themes
+Description-md5: b0d44c8c24e97b47940503c74254de0b
+Description-hr: complete front-end for MPlayer - icon themes
+ SMPlayer je grafičko korisničko sučelje (GUI) za nagrađivani MPlayer, koji
+ je sposoban reproducirati gotovo sve poznate video i zvučne formate. No,
+ osim što pruža pristup za najčešće i korisne mogućnosti MPlayera, SMPlayer
+ dodaje druge zanimljive značajke poput mogućnosti reprodukcije Youtube
+ video snimaka ili preuzimanja podnaslova.  Jedna od najzanimljivijih
+ značajki SMPlayera je ta da pamti postavke svih vaših reproduciranih
+ datoteka. Dakle počeli ste gledati film, ali ste najednom morali otići...
+ budite bez brige, kada ponovno pokrenete film reprodukcija će se nastaviti
+ gdje je prošli puta stala i to sa istim postavkama: zvučnog zapisa,
+ podnaslova i glasnoće zvuka...
+ .
+ This package contains additional icon themes.
+
+Package: synaptic
+Description-md5: d4fb8e90c9684f1113e56123c017d85f
+Description-hr: Grafički upravitelj paketima
+ Synaptic je grafički alat za upravljanje paketima temeljen na GTK+ i
+ APT-u. Synaptic vam omogućuje instalaciju, nadogradnju i uklanjanje paketa
+ softvera na korisnički prilagođeni način.
+ .
+ Pokraj tih osnovnih funkcija moguće su i ove dodatne mogućnosti:
+  * Pretraga i filtriranje popisa dostupnih paketa
+  * Izvođenje pametne nadogradnje sustava
+  * Popravak slomljenih zavisnosti paketa
+  * Uređivanje popisa repozitorija (sources.list)
+  * Preuzimanje posljednjeg zapisa promjena paketa
+  * Podešavanje paketa putem debconf sustava
+  * Pregledavanje sve dostupne dokumentacije povezane s paketom (dwww je potreban)
+
+
+Package: vim-snipmate
+Description-md5: b32d99279c72a1dbfce80f206863cd65
+Description-hr: Vim script that implements some of TextMate's snippets features.
+ SnipMate.vim aims to be an unobtrusive, concise vim script that implements
+ some of TextMate's snippets features in Vim. A snippet is a piece of
+ often-typed text that you can insert into your document using a trigger
+ word followed by a <tab>.
+ .
+ For instance, in a C file using the default installation of snipMate.vim,
+ if you type "for<tab>" in insert mode, it will expand a typical for loop
+ in C:
+ .
+ for (i = 0; i < count; i++) {
+ .
+ Project-Id-Version: PACKAGE VERSION
+ Report-Msgid-Bugs-To: 
+ PO-Revision-Date: 2021-10-06 08:00+0000
+ Last-Translator: FULL NAME <EMAIL@ADDRESS>
+ Language-Team: LANGUAGE <LL@li.org>
+ MIME-Version: 1.0
+ Content-Type: text/plain; charset=UTF-8
+ Content-Transfer-Encoding: 8bit
+ X-Launchpad-Export-Date: 2021-10-07 16:01+0000
+ X-Generator: Launchpad (build d41d323cd49b34518b2141c77ec7b2f852e5f261)
+ .
+ To go to the next item in the loop, simply <tab> over to it; if there is
+ repeated code, such as the "i" variable in this example, you can simply
+ start typing once it's highlighted and all the matches specified in the
+ snippet will be updated.
+ .
+ snipMate.vim has the following features among others:
+ .
+  - The syntax of snippets is very similar to TextMate's, allowing easy
+    conversion.
+  - The position of the snippet is kept transparently (i.e., it does not use
+    marks/placeholders inserted into the buffer), allowing you to escape out
+    of an incomplete snippet, something particularly useful in Vim.
+  - Variables in snippets are updated as-you-type.
+  - Snippets can have multiple matches.
+  - Snippets can be out of order. For instance, in a do...while loop, the
+    condition can be added before the code.
+
+
+Package: gcc-10-x86-64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-11-x86-64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-12-x86-64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+
+Package: gcc-9-x86-64-linux-gnu-base
+Description-md5: b6e93638a6d08ea7a18929d7cf078e5d
+Description-hr: GCC, GNU zbirka prevodioca (osnovni paket)
+ Ovaj paket sadrži datoteke zajedničke svim jezicima i bibliotekama
+ sadržanim u GNU zbirci prevodioca (GCC).
+

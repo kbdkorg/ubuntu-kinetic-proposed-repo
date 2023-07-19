@@ -1,0 +1,963 @@
+Package: acct
+Description-md5: 2411ebcaa9bca02b21c19f927d3e1bda
+Description-cs: GNU Accounting utilities for process and login accounting
+ Statistické nástroje GNU jsou sadou nástrojů, které hlásí a shrnují
+ informace o počtu přihlášení uživatele a statistiku spouštění procesů.
+ .
+ "Login accounting" provides summaries of system resource usage based on
+ connect time, and "process accounting" provides summaries based on the
+ commands executed on the system.
+ .
+ The 'last' command is provided by the util-linux package and not included
+ here.
+
+Package: acpid
+Description-md5: 6a7c4e4695f570d8fbcaec667cdcfcfe
+Description-cs: Advanced Configuration and Power Interface event daemon
+ Moderní počítače podporují Advanced Configuration and Power Interface
+ (ACPI) ke správě napájení počítače a ke zjišťování stavu baterie apod.
+ .
+ ACPID is a completely flexible, totally extensible daemon for delivering
+ ACPI events. It listens on netlink interface (or on the deprecated file
+ /proc/acpi/event), and when an event occurs, executes programs to handle
+ the event. The programs it executes are configured through a set of
+ configuration files, which can be dropped into place by packages or by the
+ admin.
+
+Package: adduser
+Description-md5: 0e61515c925d932d3824e3dc6af2842b
+Description-cs: přidat a odebrat uživatele a skupiny
+ Tento balík obsahuje příkazy 'adduser' a 'deluser', které slouží k
+ vytváření a odstraňování uživatelů.
+ .
+  - 'adduser' vytváří nové uživatele a skupiny a přidává existující uživatele do
+    již existujících skupin
+  - 'deluser' maže uživatele a skupiny a odstraňuje uživatele z dané
+    skupiny
+ .
+ Adding users with 'adduser' is much easier than adding them manually.
+ Adduser will choose appropriate UID and GID values, create a home
+ directory, copy skeletal user configuration, and automate setting initial
+ values for the user's password, real name and so on.
+ .
+ Deluser can back up and remove users' home directories and mail spool or
+ all the files they own on the system.
+ .
+ Po každém z příkazů může být spuštěn vlastní skript.
+
+Package: aide-common
+Description-md5: 7a8490e442a29581e6cca1b191be3f62
+Description-cs: Prostředí pokročilé detekce průniků - obecné soubory
+ AIDE is an intrusion detection system that detects changes to files on the
+ local system. It creates a database from the regular expression rules that
+ it finds from the config file. Once this database is initialized it can be
+ used to verify the integrity of the files. It has several message digest
+ algorithms (md5, sha1, rmd160, tiger, haval, etc.) that are used to check
+ the integrity of the file. More algorithms can be added with relative
+ ease. All of the usual file attributes can also be checked for
+ inconsistencies.
+ .
+ Tento balík obsahuje základ a konfigurační soubory, které jsou potřeba ke
+ spuštění aktuálních binárních souborů.
+ .
+ You will almost certainly want to tweak the configuration file in
+ /etc/aide/aide.conf or drop your own config snippets into
+ /etc/aide/aide.conf.d.
+
+Package: alsa-base
+Description-md5: 14d30d1beb8026b3d2636c32c5a92cca
+Description-cs: Konfugirční soubory ovladače ALSA
+ Tento balík obsahuje různé konfigurační soubory ovladače ALSA.
+ .
+ For ALSA to work on a system with a given sound card, there must be an
+ ALSA driver for that card in the kernel. Linux 2.6 as shipped in linux-
+ image packages contains ALSA drivers for all supported sound cards in the
+ form of loadable modules. A custom alsa-modules package can be built from
+ the sources in the alsa-source package using the m-a utility (included in
+ the module-assistant package). Please read the README.Debian file for more
+ information about loading and building modules.
+ .
+ ALSA is the Advanced Linux Sound Architecture.
+
+Package: amavisd-new
+Description-md5: d95fd9c270e69763b2674a7c7629b731
+Description-cs: Rozhraní mezi MTA a virovým skenerem/obsahovými filtry
+ AMaViSd-new is a script that interfaces a mail transport agent (MTA) with
+ zero or more virus scanners, and spamassassin (optional).
+ .
+ It supports all common virus scanners (more than 20 different AVs), with
+ direct talk-to-daemon support for ClamAV, OpenAntiVirus, Trophie, AVG,
+ f-prot, and Sophos AVs.
+ .
+ AMaViSd-new supports all MTAs through its generic SMTP/LMTP filter mode
+ (ideal for postfix and exim).  It is faster and safer to use the SMTP/LMTP
+ filter mode than using the AMaViS pipe client.  It supports sendmail
+ milter through the amavisd-new-milter package.
+
+Package: apport-gtk
+Description-md5: 2f45e17d5bf22355d7921dba196ae6dd
+Description-cs: GTK+ rozhraní pro systém reportující pády aplikací (apport)
+ apport automatically collects data from crashed processes and compiles a
+ problem report in /var/crash/. This utilizes the crashdump helper hook
+ provided by the Ubuntu kernel.
+ .
+ Tento balíček poskytuje GTK+ rozhraní pro procházení a správu reportů o
+ pádu aplikace.
+
+Package: apport-symptoms
+Description-md5: 685dc189a71c0847d5bc525d477c0d11
+Description-cs: skripty symptom pro apport
+ Apport intercepts program crashes, collects debugging information about
+ the crash and the operating system environment, and sends it to bug
+ trackers in a standardized form. It also offers the user to report a bug
+ about a package, with again collecting as much information about it as
+ possible.
+ .
+ This package extends Apport by some "symptom" scripts, so that bug
+ reporters do not have to guess the correct package, but report problems
+ based on symptoms that they have (like "sound problem"), through an
+ interactive process.
+
+Package: autoconf
+Description-md5: 4336cf24a71f6337447f744a61a67166
+Description-cs: automatické sestavení configure skriptů
+ The standard for FSF source packages.  This is only useful if you write
+ your own programs or if you extensively modify other people's programs.
+ .
+ For an extensive library of additional Autoconf macros, install the
+ `autoconf-archive' package.
+ .
+ This version of autoconf is not compatible with scripts meant for Autoconf
+ 2.13 or earlier.
+
+Package: autoconf-doc
+Description-md5: dc69587d1394618608d9fd7ec1c59833
+Description-cs: Dokumentace k nástroji pro automatické sestavení configure skriptů
+ GNU Autoconf is a package for creating scripts to configure source code
+ packages using templates and an M4 macro package.  This package contains
+ the manual for GNU Autoconf.
+
+Package: bash-completion
+Description-md5: 00158d11d140744fbdcfdd08e81901ad
+Description-cs: programmable completion for the bash shell
+ Doplňování příkazů bash rozšiřuje standardní chování bash a umožní vám
+ vytvářet i složité řádky jednoduše pomocí několika málo stisků kláves.
+ Tento projekt se snaží vytvořit programovatelné doplňování příkazů vhodné
+ pro většinu linuxových/unixových příkazů a tak zmenšit množství příkazů
+ zadaných správci systému a programátory ručně. Přitom se vychází z běžných
+ potřeb denní rutiny.
+
+Package: console-setup
+Description-md5: 68ace576871ee78c34a9c31d6c6d6bf9
+Description-cs: Písmo pro konzolu a program pro nastavení mapy kláves
+ This package provides the console with the same keyboard configuration
+ scheme as the X Window System. As a result, there is no need to duplicate
+ or change the keyboard files just to make simple customizations such as
+ the use of dead keys, the key functioning as AltGr or Compose key, the
+ key(s) to switch between Latin and non-Latin mode, etc.
+ .
+ The package also installs console fonts supporting many of the world's
+ languages.  It provides an unified set of font faces - the classic VGA,
+ the simplistic Fixed, and the cleaned Terminus, TerminusBold and
+ TerminusBoldVGA.
+
+Package: cron
+Description-md5: 7384e614068d48b9ac2335cb05added3
+Description-cs: Daemon pro plánování spouštění procesů
+ The cron daemon is a background process that runs particular programs at
+ particular times (for example, every minute, day, week, or month), as
+ specified in a crontab. By default, users may also create crontabs of
+ their own so that processes are run on their behalf.
+ .
+ Output from the commands is usually mailed to the system administrator (or
+ to the user in question); you should probably install a mail system as
+ well so that you can receive these messages.
+ .
+ This cron package does not provide any system maintenance tasks. Basic
+ periodic maintenance tasks are provided by other packages, such as
+ checksecurity.
+
+Package: dictzip
+Description-md5: 8b6985a0311f25c9b6975297145471f8
+Description-cs: Kompresní nástroje pro slovníkové databáze
+ Tento balíček obsahuje nástroje sloužící ke kompresi slovníkových databází
+ pomocí algoritmu LZ77 způsobem plně kompatibilním s gzip(1), ale pomocí
+ rozšíření, které umožní náhodný přístup k částem o velikosti 57kB bez
+ nutnosti dekomprese celého souboru.
+ .
+ Tento balíček také obsahuje dictunzip určený k dekompresi souborů
+ vytvořených pomocí dictzip a dictzcat, pro prohlížení souborů dictzip.
+
+Package: dpkg
+Description-md5: 2f156c6a30cc39895ad3487111e8c190
+Description-cs: Debian package management system
+ Tento balíček poskytuje nízkoúrovňovou infrastrukturu pro řízení instalace
+ a odstraňování softwarových balíčků Debianu.
+ .
+ For Debian package development tools, install dpkg-dev.
+
+Package: fonts-dejavu-core
+Description-md5: 1bdc3e09a211fa77869a90eb2b16de7e
+Description-cs: Odvozenina rodiny písem Vera s dalšími znaky
+ DejaVu poskytuje rozšířenou verzi rodiny písem Vera se zaměřením na širší
+ pokrytí Unicode při zachování kvality a původního stylu Vera. DejaVu se
+ snaží o shodu se standardy MES-1 a MES-2 (Multilingual European Standards,
+ mnohojazyčné evropské standardy) na pokrytí Unicode. Písmo DejaVu
+ poskytuje patkové, bezpatkové a neproporcionální (monospace) varianty.
+ .
+ This package only contains the sans, sans-bold, serif, serif-bold, mono
+ and mono-bold variants. For additional variants, see the fonts-dejavu-
+ extra package.
+ .
+ Písmo DejaVu je určeno pro použití na zařízeních s malým rozlišením
+ (typicky počítačové obrazovky), ale je možné je použít i pro tisk.
+
+Package: fonts-dejavu-extra
+Description-md5: 9f9e099bb6723f306b78a94a60945eb8
+Description-cs: Vera font family derivate with additional characters (extra variants)
+ DejaVu poskytuje rozšířenou verzi rodiny písem Vera se zaměřením na širší
+ pokrytí Unicode při zachování kvality a původního stylu Vera. DejaVu se
+ snaží o shodu se standardy MES-1 a MES-2 (Multilingual European Standards,
+ mnohojazyčné evropské standardy) na pokrytí Unicode. Písmo DejaVu
+ poskytuje patkové, bezpatkové a neproporcionální (monospace) varianty.
+ .
+ Tento balíček zahrnuje dodatečné varianty jako je oblique, italic, bold-
+ oblique, bold-italic a kondenzované tvary.
+ .
+ Písmo DejaVu je určeno pro použití na zařízeních s malým rozlišením
+ (typicky počítačové obrazovky), ale je možné je použít i pro tisk.
+
+Package: gce-compute-image-packages
+Description-md5: 80b63009609ad08d1fc3b6f017dd400f
+Description-cs: přechodový balíček
+ This dummy package is provided for a smooth transition from the previous
+ old package name to google-compute-engine.
+ .
+ It may be safely removed after installation.
+
+Package: git
+Description-md5: c1f968556452a190fe359bffd151c012
+Description-cs: fast, scalable, distributed revision control system
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git main components with minimal dependencies.
+ Additional functionality, e.g. a graphical user interface and revision
+ tree visualizer, tools for interoperating with other VCS's, or a web
+ interface, is provided as separate git* packages.
+
+Package: git-doc
+Description-md5: 067fe3355198c178fc97b3730c54a120
+Description-cs: fast, scalable, distributed revision control system (documentation)
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the documentation.
+
+Package: git-man
+Description-md5: 0c79f507738c0cb72351c8ae551ee47d
+Description-cs: fast, scalable, distributed revision control system (manual pages)
+ Git je populární verzí kontrolního systému vytvořeného pro rychlou a
+ efektivní obsluhu velmi rozsáhlých projektů; používá se v řadě vysoce
+ odborných opensource projektech, za všechny jmenujme projekt jádra Linuxu.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides reference documentation for use by the 'man' utility
+ and the 'git help' command.
+
+Package: grub-efi-amd64
+Description-md5: 1718e7ac8c2b19e7fc9fd6edaaa9c56e
+Description-cs: GRand Unified Bootloader, version 2 (EFI-AMD64 version)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with the EFI-AMD64 architecture, as used by Intel Macs (unless a BIOS
+ interface has been activated).  Installing this package indicates that
+ this version of GRUB should be the active boot loader.
+
+Package: grub-efi-amd64-bin
+Description-md5: f6ad99c32640061c96401d0bc70e2f8a
+Description-cs: GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use with the
+ EFI-AMD64 architecture, as used by Intel Macs (unless a BIOS interface has
+ been activated).  It can be installed in parallel with other flavours, but
+ will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-amd64 is also
+ installed.
+
+Package: grub-efi-amd64-signed
+Description-md5: e51baf79d7fed18d4cd4c2b834b9958b
+Description-cs: GRand Unified Bootloader, version 2 (EFI-AMD64 version, signed)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains a version of GRUB built for use with the EFI-AMD64
+ architecture, signed with Canonical's UEFI signing key.
+
+Package: grub-efi-ia32
+Description-md5: b87b1ad90490c4debbe551521ed2934e
+Description-cs: GRand Unified Bootloader, version 2 (EFI-IA32 version)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with the EFI-IA32 architecture, as used by Intel Macs (unless a BIOS
+ interface has been activated).  Installing this package indicates that
+ this version of GRUB should be the active boot loader.
+
+Package: grub-efi-ia32-bin
+Description-md5: 72eca32dad838f96ef1c12b3d764e537
+Description-cs: GRand Unified Bootloader, version 2 (EFI-IA32 modules)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use with the
+ EFI-IA32 architecture, as used by Intel Macs (unless a BIOS interface has
+ been activated).  It can be installed in parallel with other flavours, but
+ will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-ia32 is also
+ installed.
+
+Package: grub-ieee1275
+Description-md5: 4182e3a83ecc589a21da82d455a9182d
+Description-cs: GRand Unified Bootloader, version 2 (Open Firmware version)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with Open Firmware implementations.  Installing this package indicates
+ that this version of GRUB should be the active boot loader.
+
+Package: grub-ieee1275-bin
+Description-md5: 502a917bf5af6a6f686b59cff29486fd
+Description-cs: GRand Unified Bootloader, version 2 (Open Firmware modules)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use with Open
+ Firmware implementations.  It can be installed in parallel with other
+ flavours, but will not automatically install GRUB as the active boot
+ loader nor automatically update grub.cfg on upgrade unless grub-ieee1275
+ is also installed.
+
+Package: grub-pc
+Description-md5: 55663e0e8d42f469d665f9cc0013b733
+Description-cs: GRand Unified Bootloader, verze 2 (PC/BIOS verze)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+  - VESA-based graphical mode with background image support and complete 24-bit
+    color set.
+  - Support for extended charsets.  Users can write UTF-8 text to their menu
+    entries.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with the traditional PC/BIOS architecture.  Installing this package
+ indicates that this version of GRUB should be the active boot loader.
+
+Package: grub-pc-bin
+Description-md5: 20901840d7f9daaf1870638db2221cb1
+Description-cs: GRand Unified Bootloader, version 2 (PC/BIOS modules)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+  - VESA-based graphical mode with background image support and complete 24-bit
+    color set.
+  - Support for extended charsets.  Users can write UTF-8 text to their menu
+    entries.
+ .
+ This package contains GRUB modules that have been built for use with the
+ traditional PC/BIOS architecture.  It can be installed in parallel with
+ other flavours, but will not automatically install GRUB as the active boot
+ loader nor automatically update grub.cfg on upgrade unless grub-pc is also
+ installed.
+
+Package: grub-xen
+Description-md5: 2eceba62a74d5d7f9e98f3a6f5d2a1d1
+Description-cs: GRand Unified Bootloader, version 2 (Xen version)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with the Xen hypervisor (i.e. PV-GRUB).  Installing this package
+ indicates that this version of GRUB should be the active boot loader.
+
+Package: grub-xen-bin
+Description-md5: f30684489a7949e282652e8bd8f6c727
+Description-cs: GRand Unified Bootloader, version 2 (Xen modules)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use with the
+ Xen hypervisor (i.e. PV-GRUB).  It can be installed in parallel with other
+ flavours, but will not automatically install GRUB as the active boot
+ loader nor automatically update grub.cfg on upgrade unless grub-xen is
+ also installed.
+
+Package: gzip
+Description-md5: 100720c9e2c6508f1a1f3731537b38e5
+Description-cs: Kompresní nástroje GNU
+ Tento balíček obsahuje standardní kompresní GNU nástroje, které jsou také
+ výchozími kompresními nástroji v Debianu. Tyto nástroje pracují se soubory
+ končícími na '.gz' a také umí dekomprimovat soubory končící na '.Z' (ty
+ jsou vytvořené pomocí 'compress').
+
+Package: install-info
+Description-md5: 1fc51f7aec70d7bdeff2e1bf59b3ebbc
+Description-cs: Spravuje instalovanou dokumentaci ve formátu info
+ Nástroj install-info vytváří index všech nainstalovaných dokumentací ve
+ formátu info a zpřístupňuje je tak čtenářům.
+
+Package: keyutils
+Description-md5: 2d8745863e4f147ac2e1dded0b9fa058
+Description-cs: Nástroje pro správu klíčů Linuxu
+ Keyutils je sada nástrojů sloužících ke správě schopnosti uchování klíčů v
+ jádře, které je možno použít souborovým systémem nebo blokovým zařízením a
+ tak nebude nikdy víc nutno pro tyto zabezpečené operace vyžadovat
+ autorizaci nebo šifrované klíče.
+
+Package: less
+Description-md5: a2c2d2eff1fb9762b71faf7540cf8dce
+Description-cs: Stránkovací program podobný more
+ This package provides "less", a file pager (that is, a memory-efficient
+ utility for displaying text one screenful at a time). Less has many more
+ features than the basic pager "more". As part of the GNU project, it is
+ widely regarded as the standard pager on UNIX-derived systems.
+ .
+ Také obsahuje nástroj „lessecho“, jednoduchý nástroj pro kontrolu uvození
+ argumentů obsahující mezery; „lesskey“, nástroj pro úpravu standardních
+ klávesových zkratek (ala editor vi); a „lesspipe“, filtr pro specifické
+ typy vstupu, jako jsou soubory .doc a .txt.gz.
+
+Package: libapt-pkg-perl
+Description-md5: b90df5c972edb2fc10beeac8dffd2963
+Description-cs: Perlové rozhraní k libapt-pkg
+ Perlové rozhraní k libapt-pkg, které poskytuje moduly pro analýzu
+ konfiguračních soubor/příkazové řádky, porovnávání verzí, kontrolu keše
+ binárních balíčků a detaily zdrojových balíčků.
+
+Package: libgl1-mesa-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: libgles2-mesa-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: libice-dev
+Description-md5: 9ef50bcec7f1e713478c714843229850
+Description-cs: X11 Inter-Client Exchange library (development headers)
+ Tento balíček poskytuje hlavní rozhraní ke knihovně X11 Inter-Client
+ Exchange, která umožňuje datovou komunikaci mezi dvěma X klienty.
+ .
+ This package contains the development headers for the library found in
+ libice6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at: <URL:http://www.X.org>
+ .
+ Tento modul můžete najít v
+ git://anongit.freedesktop.org/git/xorg/lib/libICE
+
+Package: libice6
+Description-md5: ded12730167b4fabe6c8013534c7804a
+Description-cs: Knihovna X11 Inter-Client Exchange
+ Tento balíček poskytuje hlavní rozhraní ke knihovně X11 Inter-Client
+ Exchange, která umožňuje datovou komunikaci mezi dvěma X klienty.
+ .
+ More information about X.Org can be found at: <URL:http://www.X.org>
+ .
+ Tento modul můžete najít v
+ git://anongit.freedesktop.org/git/xorg/lib/libICE
+
+Package: libkeyutils-dev
+Description-md5: 778cf76cde69933bd711c1050360f519
+Description-cs: Linux Key Management Utilities (development)
+ Keyutils je sada nástrojů sloužících ke správě schopnosti uchování klíčů v
+ jádře, které je možno použít souborovým systémem nebo blokovým zařízením a
+ tak nebude nikdy víc nutno pro tyto zabezpečené operace vyžadovat
+ autorizaci nebo šifrované klíče.
+ .
+ This package contains the development files.
+
+Package: libkeyutils1
+Description-md5: 5c4d88a0a818e5ef897f2a9fa5c3ac2d
+Description-cs: Linux Key Management Utilities (library)
+ Keyutils je sada nástrojů sloužících ke správě schopnosti uchování klíčů v
+ jádře, které je možno použít souborovým systémem nebo blokovým zařízením a
+ tak nebude nikdy víc nutno pro tyto zabezpečené operace vyžadovat
+ autorizaci nebo šifrované klíče.
+ .
+ This package provides a wrapper library for the key management facility
+ system calls.
+
+Package: libnet-dbus-perl
+Description-md5: 0e32894b8dc85fcd2cd0afc2dcf1d2d5
+Description-cs: Perl extension for the DBus bindings
+ Net::DBus poskytuje Perlové API pro systém zpráv DBus. Perlové rozhraní
+ DBus v současnosti funguje oproti vývojové verzi 0.32 DBusu, ale mělo by
+ fungovat i s novějšími verzemi, protože změny v API nebyly nijak
+ drastické.
+ .
+ Uživatelé tohoto balíčku jsou typicky buď poskytovatelé služeb, pro které
+ mají největší význam moduly Net::DBus::Service a Net::DBus::Object, nebo
+ koncoví uživatelé, pro které mají největší význam Net::DBus::RemoteService
+ a Net::DBus::RemoteObject.
+
+Package: libnss-winbind
+Description-md5: 223d38d764a9bb35ad3be4c8d048957d
+Description-cs: Samba nameservice integration plugins
+ Samba implementuje protokol SMB/CIFS pro unixové systémy a tak umožňuje
+ sdílet soubory a tiskárny se systémy MS Windows, OS X a také dalšími
+ unixovými systémy. Samba také umí fungovat jako řadič domény (ala NT4) a
+ také ji můžete integrovat do domény NT4 nebo Active Directory.
+ .
+ This package provides nss_winbind, a plugin that integrates with a local
+ winbindd server to provide user/group name lookups to the system; and
+ nss_wins, which provides hostname lookups via both the NBNS and NetBIOS
+ broadcast protocols.
+
+Package: libpam-winbind
+Description-md5: fba9076429d270720a91324cff071fed
+Description-cs: Windows domain authentication integration plugin
+ Samba implementuje protokol SMB/CIFS pro unixové systémy a tak umožňuje
+ sdílet soubory a tiskárny se systémy MS Windows, OS X a také dalšími
+ unixovými systémy. Samba také umí fungovat jako řadič domény (ala NT4) a
+ také ji můžete integrovat do domény NT4 nebo Active Directory.
+ .
+ This package provides pam_winbind, a plugin that integrates with a local
+ winbindd server to provide Windows domain authentication to the system.
+
+Package: libpcap-dev
+Description-md5: 10078daf2f68ccb78a8fc1970d8c94f5
+Description-cs: development library for libpcap (transitional package)
+ Prázdný balík pro účel upgradu, poté může být klidně odstraněn.
+
+Package: libsensors4-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: lsscsi
+Description-md5: bd9af78e01cda1b77847bb06d8309439
+Description-cs: list all SCSI devices (or hosts) currently on system
+ Zpracovává informace uložené v sysfs (linuxového jádra 2.6.0 a novějšího)
+ a zobrazuje seznam scsi zařízení připojených do počítače. Volitelně ho
+ můžete použít také pro zobrazení určitého množství informací právě o
+ těchto zařízeních.
+
+Package: memtest86+
+Description-md5: aa685f84801773ef97fdaba8eb26436a
+Description-cs: thorough real-mode memory tester
+ Memtest86+ scans your RAM for errors.
+ .
+ This tester runs independently of any OS - it is run at computer boot-up,
+ so that it can test *all* of your memory.  You may want to look at
+ `memtester', which allows to test your memory within Linux, but this one
+ won't be able to test your whole RAM.
+ .
+ It can output a list of bad RAM regions usable by the BadRAM kernel patch,
+ so that you can still use your old RAM with one or two bad bits.
+ .
+ Memtest86+ is based on memtest86 3.0, and adds support for recent
+ hardware, as well as a number of general-purpose improvements, including
+ many patches to memtest86 available from various sources.
+ .
+ Na memtest86 i memtest86+ se pracuje paralelně.
+
+Package: mlocate
+Description-md5: 257ec17aa5cd0219995495f3d7c052c6
+Description-cs: přechodový balíček
+ This is a transitional dummy package to plocate, it can be safely removed.
+ Command-line options should generally be the same, so you can continue to
+ use the locate(1) command as before with no ill effects.
+
+Package: python3-reportlab-accel
+Description-md5: 3a2f3d264cea475a3a1ee612a69fb526
+Description-cs: Akcelerátor rozšíření v C pro balíček ReportLab
+ Akcelerátor balíčku nástrojů ReportLab naprogramovaný v C.
+
+Package: reiserfsprogs
+Description-md5: 2e1145bff0ae4baf3abf769bcd287358
+Description-cs: Uživatelské nástroje souborového systému ReiserFS
+ Tento balíček obsahuje nástroje pro vytvoření, kontrolu, změnu velikosti a
+ ladění souborového systému ReiserFS.
+
+Package: samba
+Description-md5: 3dcec89b7baaa655b2536933cdaeab54
+Description-cs: Souborový SMB/CIFS, tiskový a přihlašovací server pro Linux
+ Samba implementuje protokol SMB/CIFS pro unixové systémy a tak umožňuje
+ sdílet soubory a tiskárny se systémy MS Windows, OS X a také dalšími
+ unixovými systémy. Samba také umí fungovat jako řadič domény (ala NT4) a
+ také ji můžete integrovat do domény NT4 nebo Active Directory.
+ .
+ This package provides the components necessary to use Samba as a stand-
+ alone file and print server or as an NT4 or Active Directory domain
+ controller. For use in an NT4 domain or Active Directory realm, you will
+ also need the winbind package.
+ .
+ This package is not required for connecting to existing SMB/CIFS servers
+ (see smbclient) or for mounting remote filesystems (see cifs-utils).
+
+Package: seahorse
+Description-md5: 183c443db6e087b1bdd4087786203c38
+Description-cs: GNOME frontend k GnuPG
+ Seahorse is a front end for GnuPG - the GNU Privacy Guard program - that
+ integrates to the GNOME desktop. It is a tool for secure communications
+ and data storage.  Data encryption and digital signature creation can
+ easily be performed through a GUI and Key Management operations can easily
+ be carried out through an intuitive interface.
+
+Package: simple-scan
+Description-md5: 0801cb168babf587af56100a43d62a83
+Description-cs: Nástroj pro jednoduché skenování
+ Jednoduché skenování je jednoduchá aplikace navržená tak, aby uživatelé
+ mohli hned po připojení skeneru mít své obrázky/dokumenty naskenovány v
+ patřičném formátu.
+ .
+ Jednoduché skenování je v podstatě pouze frontend pro SANE, což je stejný
+ backend, který používá XSANE. To znamená, že všechny podporované skenery
+ budou fungovat a rozhraní je dobře otestováno.
+
+Package: slapd
+Description-md5: dd977840e276b3f03520c0ab1d050cf8
+Description-cs: OpenLDAP server (slapd)
+ Toto je OpenLDAP server (Lightweight Directory Access Protocol - odlehčený
+ protokol pro přístup k adresářům). Může být použit jako samostatná
+ adresářová služba.
+
+Package: unattended-upgrades
+Description-md5: 13ffb6fcb282e3e2203472fa9b1a59f7
+Description-cs: Automatický instalátor bezpečnostních aktualizací
+ Tento balíček umí automaticky stáhnout a nainstalovat bezpečnostní
+ aktualizace, přitom instaluje pouze balíčky z APT a kontroluje otázky dpkg
+ týkající se změn konfiguračních souborů.
+ .
+ Tento skript je backendem k volbě APT::Periodic::Unattended-Upgrade.
+
+Package: wnorwegian
+Description-md5: 808855f90413a16cb734e0a0af6caeeb
+Description-cs: Seznam norských slov
+ Tento balíček obsahuje seznam norských jmen a slov pro všeobecné použití.
+
+Package: x11proto-core-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-dri2-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-fonts-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-gl-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-input-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-kb-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-present-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-randr-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-record-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-render-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-scrnsaver-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-video-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xext-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86dga-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86dri-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86vidmode-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xinerama-dev
+Description-md5: 635a93bcd1440d16621693fe064c2aa9
+Description-cs: přechodový balíček
+ This is a transitional dummy package, it can be safely removed.
+
+Package: grub-efi-arm64
+Description-md5: b55085cf9509b6d6ac292cecf72edfbb
+Description-cs: GRand Unified Bootloader, version 2 (ARM64 UEFI version)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use on ARM64 systems with UEFI.  Installing this package indicates that
+ this version of GRUB should be the active boot loader.
+
+Package: grub-efi-arm64-bin
+Description-md5: 85b87f648ce8f6d264dba7a956fef128
+Description-cs: GRand Unified Bootloader, version 2 (ARM64 UEFI modules)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use on ARM64
+ systems with UEFI.  It can be installed in parallel with other flavours,
+ but will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-arm64 is also
+ installed.
+
+Package: grub-efi-arm64-signed
+Description-md5: 01643ba39fefd9a633ccd5d020ee0e42
+Description-cs: GRand Unified Bootloader, version 2 (EFI-ARM64 version, signed)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains a version of GRUB built for use with the EFI-ARM64
+ architecture, signed with Canonical's UEFI signing key.
+
+Package: grub-efi-arm
+Description-md5: 4d5d31e46506c9d22db87020959b3fd1
+Description-cs: GRand Unified Bootloader, version 2 (ARM UEFI version)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use on ARM systems with UEFI.  Installing this package indicates that this
+ version of GRUB should be the active boot loader.
+
+Package: grub-efi-arm-bin
+Description-md5: 6155ff69c46107c009b7f8c96d24eab0
+Description-cs: GRand Unified Bootloader, version 2 (ARM UEFI modules)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use on ARM
+ systems with UEFI.  It can be installed in parallel with other flavours,
+ but will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-arm is also
+ installed.
+
+Package: grub-uboot
+Description-md5: 51e34ff8f458d3a2619abc37a6ff775b
+Description-cs: GRand Unified Bootloader, version 2 (ARM U-Boot version)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with ARM systems with U-Boot.  Installing this package indicates that
+ this version of GRUB should be the active boot loader.
+
+Package: grub-uboot-bin
+Description-md5: 24a22ee26258fa3949b649277c041f89
+Description-cs: GRand Unified Bootloader, version 2 (ARM U-Boot modules)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use with ARM
+ systems with U-Boot.  It can be installed in parallel with other flavours,
+ but will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-uboot is also
+ installed.
+
+Package: grub-efi-riscv64
+Description-md5: f90513a9402ed06079e1657f6059cb11
+Description-cs: GRand Unified Bootloader, version 2 (riscv64 UEFI version)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use on RISC-V 64-bit systems with UEFI.  Installing this package indicates
+ that this version of GRUB should be the active boot loader.
+
+Package: grub-efi-riscv64-bin
+Description-md5: 6308a6be104f2bd41819226101a69aaa
+Description-cs: GRand Unified Bootloader, version 2 (riscv64 UEFI modules)
+ GRUB je přenositelný a mocný zavaděč. Tato verze GRUBu byla čistě přepsaná
+ a z původní verze se toho příliš nezachovalo. Nově poskytuje tyto věci:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use on riscv64
+ systems with UEFI.  It can be installed in parallel with other flavours,
+ but will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-riscv64 is also
+ installed.
+

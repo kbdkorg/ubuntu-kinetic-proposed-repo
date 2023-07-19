@@ -1,0 +1,24 @@
+Package: bcmwl-kernel-source
+Description-md5: 9da890d8409fb430fa6f9a0c8a37934a
+Description-pl: Źródło sterownika sieci bezprzewodowych Broadcom 802.11 Linux STA
+ Ten pakiet zawiera sterownik bezprzewodowej karty sieciowej Broadcom
+ 802.11 STA używany przez urządzenia bazujące na układach BCM4311-,
+ BCM4312-, BCM4313-, BCM4321-, BCM4322-, BCM43224-, BCM43225-, BCM43227- i
+ BCM43228.
+
+Package: sl-modem-daemon
+Description-md5: dd33edc29e8f6ca6bd7aaea974c49391
+Description-pl: Demon modemu programowego SmartLink.
+ Demon modemu programowego SmartLink jest częścią aplikacyjną sterownika
+ dla najnowszych modemów produkowanych przez firmę Smart Link.
+ .
+ Ten pakiet zastępuje (włącznie ze sterownikami sprzętowymi)  starszą
+ generację (2.7.x), która bazowała wyłącznie na modułach jądra.
+ .
+ It needs a kernel driver to access the hardware. This can be either recent
+ ALSA (shipped with a newer kernel (>=2.6.4) with ALSA support and snd-
+ intel8x0m module) which is sufficient for basic operation and
+ data/Internet connection, or the SmartLink kernel driver which is provided
+ by separate packages which you can build using the source from the sl-
+ modem-dkms package.
+

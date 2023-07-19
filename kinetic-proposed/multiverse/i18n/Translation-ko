@@ -1,0 +1,75 @@
+Package: abyss
+Description-md5: 7c736de2ab206e6ade42c9f95ff44b4a
+Description-ko: 짧은 읽기를 위한 de novo, 병렬, 시퀀스 어셈블러
+ ABySS는 짧은 읽기를 위해 설계된 de novo, 병렬, 시퀀스 어셈블러입니다. 게놈 또는 전사체 시퀀스 데이타를 조립하는데
+ 사용될 수 있습니다. 병렬화는 MPI, OpenMP, pthread를 사용해서 수행됩니다.
+
+Package: afio
+Description-md5: ca88467cccd23b8f150ff01185566a6c
+Description-ko: 아카이브 파일 조작 프로그램
+ Afio는 파일 그룹을 조작하여 파일 시스템과 afio 아카이브 내부 또는 사이에 파일을 복사합니다.
+ .
+ Afio 아카이브는 ASCII 형식의 헤더 정보만을 포함하기에 포터블합니다. Afio는 cpio 형식에 아카이브를 만듭니다.
+ Afio는 입력 데이타 손상을 우아하게 처리합니다. Afio는 인터렉티브 작업중에 멀티 볼륨 아카이브를 지원합니다. Afio는 압축된
+ tar 또는 cpio 아카이브보다 훨씬 안전한 압축 아카이브를 만들 수 있습니다.
+ .
+ Afio는 백업 스크립트에서 `아카이브 엔진'으로 가장 잘 사용됩니다.
+
+Package: notion
+Description-md5: 09e7f6a1881d70d8ecd78d22041a49b7
+Description-ko: 키보드 사용자를 위해 설계된 tiling tabbed 윈도우 매니저
+ Notion은 기본적으로 화면을 타일로 나누고 이 타일에 윈도우를 배치합니다. 각 타일에는 타일에 포함된 윈도우에 대한 탭 세트가
+ 있습니다. 또한 윈도우를 "floatin" 하거나 자유롭게 배치할 수 있습니다. Notion은 키보드만으로 또는 마우스와의 조합을
+ 통해 제어될 수 있습니다.
+ .
+ Notion은 Lua 언어를 사용해서 구성하고 확장할 수 있습니다. 또한 C로 개발한 확장 모듈을 지원합니다.
+
+Package: notion-dev
+Description-md5: cc63e31ab5c2f3d12f04e0160cfd72ff
+Description-ko: Notion development files
+ Notion은 기본적으로 화면을 타일로 나누고 이 타일에 윈도우를 배치합니다. 각 타일에는 타일에 포함된 윈도우에 대한 탭 세트가
+ 있습니다. 또한 윈도우를 "floatin" 하거나 자유롭게 배치할 수 있습니다. Notion은 키보드만으로 또는 마우스와의 조합을
+ 통해 제어될 수 있습니다.
+ .
+ This package contains the files necessary for building extension modules
+ to the Notion window manager
+
+Package: qcomicbook
+Description-md5: 5e1e59ae80d5250683bcf393eda201bc
+Description-ko: 코믹 북 아카이브 (cbr/cbz/cba/cbg/cbb) 를 위한 qt 뷰어
+ QComicBook은 편리함과 단순함을 목표로 하는, jpeg/png 이미지를 포함하는 코믹 북 아카이브를 위한 뷰어입니다. 다음과
+ 같은 특징을 포함합니다: 자동 압축 해 제, 전화면 모드, 페이지 크기 조절, 마우스 또는 키보드 탐색 등등.
+ .
+ QComicBook for now supports archives:
+  - cbr - rar-compressed
+  - cbz - zip-compressed
+  - cba - ace-compressed
+  - cbg - targzipped
+  - cbb - tarbzip2ped
+
+
+Package: svtools
+Description-md5: 0e1af3ce7283b30f537bf151c85ac7d0
+Description-ko: daemontools 및 multilog용 유틸리티
+ 이 패키지는 감시 서비스를 유지하고 multilog 로그 파일을 처리하기 위한 몇몇 유용한 유틸리티를 제공합니다.
+ .
+ svdir: daemontools 서비스 디렉토리 탐색. svinfo: 감시 프로세스에 대한 정보 수집. svinitd:
+ daemontools 서비스에 대한 init.d 래퍼. svinitd-create: 감시 프로세스용 init.d-script 생성.
+ svsetup: daemontools용 서비스 셋업 도구. mlcat: multilog 파일용 cat 프론트엔드. mlhead:
+ multilog 파일용 head 프론트엔드. mltail: multilog 파일용 tail 프론트엔드.
+
+Package: tightvnc-java
+Description-md5: 4982dc58a7417498b393af72026124af
+Description-ko: TightVNC java 애플릿 및 명령행 프로그램
+ VNC는 가상 네트워크 컴퓨팅 (Virtual Network Computing)을 나타냅니다. 본질적으로, VNC는 사용자가 실행중인
+ 시스템뿐만 아니라 인터넷이 연결된 곳이면 어디서나, 그리고 광범위한 머신 아키텍쳐까지 `데스크탑' 컴퓨팅 환경을 볼 수 있도록 하는
+ 원격 디스플레이 시스템입니다.
+ .
+ 이 패키지는 tightvncserver가 클라이언트에 배포 할 수 있는 vnc java 애플릿 파일입니다.
+
+Package: xsnow
+Description-md5: 50f83ae2081d9d64cb36576ded637c7a
+Description-ko: 데스크탑에 크리스마스를 가져다 줍니다.
+ Xsonw는 데스크탑 배경에  눈을 내리는 X 윈도우 어플리케이션입니다. 산타와 그의 루돌프는 페스티벌 시즌의 느낌을 완성할 것
+ 입니다. Xsonw는 GNOME, KDE, FVWM 및 이들에서 파생된 데스크탑에서 실행됩니다.
+
